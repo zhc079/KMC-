@@ -1,0 +1,4706 @@
+<jobs>
+	<job>
+		<id>1</id>
+		<tag>1:ss:n</tag>
+		<input>
+				1:ss:MP_FILES/ss_n.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:27:36</time>
+		<output>
+			<summary>
+				<type>electron-like</type>
+				<xyz unit="nm">+0.1450543 +2.0092609 -0.3043750</xyz>
+				<total unit="eV">-688.5534229</total>
+				<estat unit="eV">-586.9066771</estat>
+				<eindu unit="eV">-101.6467458</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -7.76259e-01 -6.51904e+02</F-00-01-11>
+				<M-00-11--->+1.15099e-01 +9.53192e+01</M-00-11--->
+				<E-PP-PU-UU>-4.89547e+02 -7.63908e+01 -5.52462e-18</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.65868e+02 = -1.29198e+02 -3.46112e+01 -2.05957e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+8.33686e+00 = +1.08679e+01 -2.89135e+00 +3.60287e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.61673e+02 = +1.44571e+02 +1.66200e+01 +4.81672e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.35449e+02 = +1.23601e+02 +1.11222e+01 +7.25631e-01</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1636</FGC>
+				<FGN>1636</FGN>
+				<MGN>62120</MGN>
+				<BGN>6424</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1635</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">4.84</t_total>
+				<t_wload unit="min">0.00 2.65 0.37 1.83</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>2</id>
+		<tag>1:ss:e</tag>
+		<input>
+				1:ss:MP_FILES/ss_e.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:27:15</time>
+		<output>
+			<summary>
+				<type>bipolaron-like</type>
+				<xyz unit="nm">+0.1450543 +2.0092609 -0.3043750</xyz>
+				<total unit="eV">-689.3223675</total>
+				<estat unit="eV">-586.9073203</estat>
+				<eindu unit="eV">-102.4150473</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -1.48673e+00 -6.51974e+02</F-00-01-11>
+				<M-00-11--->+3.11152e-01 +9.57860e+01</M-00-11--->
+				<E-PP-PU-UU>-4.88960e+02 -7.70855e+01 -2.21540e-17</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.65886e+02 = -1.29198e+02 -3.46237e+01 -2.06425e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+8.40630e+00 = +1.11203e+01 -3.11264e+00 +3.98633e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.62075e+02 = +1.45105e+02 +1.64951e+01 +4.74881e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.36554e+02 = +1.24974e+02 +1.08267e+01 +7.53342e-01</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1636</FGC>
+				<FGN>1636</FGN>
+				<MGN>62120</MGN>
+				<BGN>6424</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1635</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">4.50</t_total>
+				<t_wload unit="min">0.00 2.41 0.38 1.71</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>3</id>
+		<tag>1:ss:h</tag>
+		<input>
+			1:ss:MP_FILES/ss_h.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:27:52</time>
+		<output>
+			<summary>
+				<type>neutral</type>
+				<xyz unit="nm">+0.1450543 +2.0092609 -0.3043750</xyz>
+				<total unit="eV">-688.7539919</total>
+				<estat unit="eV">-586.8379639</estat>
+				<eindu unit="eV">-101.9160281</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -2.16031e+00 -6.51801e+02</F-00-01-11>
+				<M-00-11--->+2.76958e-01 +9.55729e+01</M-00-11--->
+				<E-PP-PU-UU>-4.90083e+02 -7.67328e+01 -2.68766e-17</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.65851e+02 = -1.29198e+02 -3.45986e+01 -2.05478e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+8.24892e+00 = +1.06016e+01 -2.68910e+00 +3.36426e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.61252e+02 = +1.44172e+02 +1.66018e+01 +4.78961e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.34293e+02 = +1.22331e+02 +1.12598e+01 +7.02517e-01</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1636</FGC>
+				<FGN>1636</FGN>
+				<MGN>62120</MGN>
+				<BGN>6424</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1635</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">5.11</t_total>
+				<t_wload unit="min">0.00 2.85 0.35 1.91</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>4</id>
+		<tag>2:ss:n</tag>
+		<input>
+   			2:ss:MP_FILES/ss_n.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:28:00</time>
+		<output>
+			<summary>
+				<type>neutral</type>
+				<xyz unit="nm">-0.0417120 +1.6774565 -0.4267717</xyz>
+				<total unit="eV">-699.2900348</total>
+				<estat unit="eV">-595.1201061</estat>
+				<eindu unit="eV">-104.1699287</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -6.29059e-01 -6.36595e+02</F-00-01-11>
+				<M-00-11--->+7.91452e-02 +9.62868e+01</M-00-11--->
+				<E-PP-PU-UU>-4.73784e+02 -7.66599e+01 +1.44388e-17</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.82250e+02 = -1.42956e+02 -3.70490e+01 -2.24579e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+9.38414e+00 = +1.24069e+01 -3.47958e+00 +4.56855e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.80770e+02 = +1.62591e+02 +1.77007e+01 +4.78147e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.66336e+02 = +1.53378e+02 +1.21135e+01 +8.43691e-01</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1636</FGC>
+				<FGN>1636</FGN>
+				<MGN>62240</MGN>
+				<BGN>6424</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1635</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">5.24</t_total>
+				<t_wload unit="min">0.00 2.68 0.37 2.19</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>5</id>
+		<tag>2:ss:e</tag>
+		<input>
+				2:ss:MP_FILES/ss_e.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:27:50</time>
+		<output>
+			<summary>
+				<type>electron-like</type>
+				<xyz unit="nm">-0.0417120 +1.6774565 -0.4267717</xyz>
+				<total unit="eV">-699.4854122</total>
+				<estat unit="eV">-594.4923830</estat>
+				<eindu unit="eV">-104.9930292</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -1.23897e+00 -6.36786e+02</F-00-01-11>
+				<M-00-11--->+2.06670e-01 +9.68867e+01</M-00-11--->
+				<E-PP-PU-UU>-4.73073e+02 -7.74352e+01 -1.82079e-17</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.82264e+02 = -1.42956e+02 -3.70595e+01 -2.24879e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+9.51353e+00 = +1.28318e+01 -3.83360e+00 +5.15326e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.81191e+02 = +1.63132e+02 +1.75879e+01 +4.71295e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.66995e+02 = +1.54428e+02 +1.16724e+01 +8.94525e-01</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1636</FGC>
+				<FGN>1636</FGN>
+				<MGN>62240</MGN>
+				<BGN>6424</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1635</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">5.07</t_total>
+				<t_wload unit="min">0.00 2.68 0.37 2.02</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>6</id>
+		<tag>2:ss:h</tag>
+		<input>
+				2:ss:MP_FILES/ss_h.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:27:34</time>
+		<output>
+			<summary>
+				<type>hole-like</type>
+				<xyz unit="nm">-0.0417120 +1.6774565 -0.4267717</xyz>
+				<total unit="eV">-699.9641889</total>
+				<estat unit="eV">-595.6658778</estat>
+				<eindu unit="eV">-104.2983111</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -1.92601e+00 -6.36339e+02</F-00-01-11>
+				<M-00-11--->+1.99662e-01 +9.64105e+01</M-00-11--->
+				<E-PP-PU-UU>-4.74407e+02 -7.68396e+01 +4.37463e-17</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.82239e+02 = -1.42956e+02 -3.70405e+01 -2.24286e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+9.23986e+00 = +1.19707e+01 -3.14068e+00 +4.09851e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.80425e+02 = +1.62201e+02 +1.77442e+01 +4.80058e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.65736e+02 = +1.52475e+02 +1.24615e+01 +7.99038e-01</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1636</FGC>
+				<FGN>1636</FGN>
+				<MGN>62240</MGN>
+				<BGN>6424</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1635</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">4.81</t_total>
+				<t_wload unit="min">0.00 2.46 0.38 1.97</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>7</id>
+		<tag>3:ss:n</tag>
+		<input>
+				3:ss:MP_FILES/ss_n.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:27:38</time>
+		<output>
+			<summary>
+				<type>bipolaron-like</type>
+				<xyz unit="nm">-0.1406957 +1.3169402 -0.4334348</xyz>
+				<total unit="eV">-694.4533948</total>
+				<estat unit="eV">-590.0288572</estat>
+				<eindu unit="eV">-104.4245376</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -7.52680e-01 -6.23486e+02</F-00-01-11>
+				<M-00-11--->+9.23476e-02 +9.61076e+01</M-00-11--->
+				<E-PP-PU-UU>-4.62184e+02 -7.61073e+01 +2.59997e-17</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.87496e+02 = -1.46806e+02 -3.81759e+01 -2.51471e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+8.74139e+00 = +1.20867e+01 -3.83514e+00 +4.89809e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.85831e+02 = +1.67302e+02 +1.80435e+01 +4.84689e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.73490e+02 = +1.60428e+02 +1.21876e+01 +8.74017e-01</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1618</FGC>
+				<FGN>1618</FGN>
+				<MGN>62346</MGN>
+				<BGN>6442</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1617</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">4.88</t_total>
+				<t_wload unit="min">0.00 2.46 0.39 2.03</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>8</id>
+		<tag>3:ss:e</tag>
+		<input>
+				3:ss:MP_FILES/ss_e.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:27:31</time>
+		<output>
+			<summary>
+				<type>bipolaron-like</type>
+				<xyz unit="nm">-0.1406957 +1.3169402 -0.4334348</xyz>
+				<total unit="eV">-694.3255528</total>
+				<estat unit="eV">-588.9249591</estat>
+				<eindu unit="eV">-105.4005938</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -9.41526e-02 -6.23789e+02</F-00-01-11>
+				<M-00-11--->+2.33504e-01 +9.67996e+01</M-00-11--->
+				<E-PP-PU-UU>-4.60074e+02 -7.70086e+01 +2.97265e-17</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.87521e+02 = -1.46806e+02 -3.81975e+01 -2.51829e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+8.91138e+00 = +1.26386e+01 -4.30034e+00 +5.73099e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.86240e+02 = +1.67882e+02 +1.78826e+01 +4.75160e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.75105e+02 = +1.62566e+02 +1.15959e+01 +9.43095e-01</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1618</FGC>
+				<FGN>1618</FGN>
+				<MGN>62346</MGN>
+				<BGN>6442</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1617</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">4.76</t_total>
+				<t_wload unit="min">0.00 2.48 0.38 1.90</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>9</id>
+		<tag>3:ss:h</tag>
+		<input>
+				3:ss:MP_FILES/ss_h.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:27:30</time>
+		<output>
+			<summary>
+				<type>electron-like</type>
+				<xyz unit="nm">-0.1406957 +1.3169402 -0.4334348</xyz>
+				<total unit="eV">-695.4524640</total>
+				<estat unit="eV">-591.0218952</estat>
+				<eindu unit="eV">-104.4305687</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -3.35945e+00 -6.23099e+02</F-00-01-11>
+				<M-00-11--->+2.23471e-01 +9.61246e+01</M-00-11--->
+				<E-PP-PU-UU>-4.64172e+02 -7.61980e+01 -1.29483e-17</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.87470e+02 = -1.46806e+02 -3.81534e+01 -2.51093e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+8.55445e+00 = +1.15311e+01 -3.41515e+00 +4.38482e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.85409e+02 = +1.66873e+02 +1.80506e+01 +4.84676e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.71836e+02 = +1.58449e+02 +1.25631e+01 +8.24089e-01</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1618</FGC>
+				<FGN>1618</FGN>
+				<MGN>62346</MGN>
+				<BGN>6442</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1617</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">4.75</t_total>
+				<t_wload unit="min">0.00 2.41 0.39 1.95</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>10</id>
+		<tag>4:ss_noh:n</tag>
+		<input>
+				4:ss_noh:MP_FILES/ss_noh_n.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:27:09</time>
+		<output>
+			<summary>
+				<type>bipolaron-like</type>
+				<xyz unit="nm">+0.2915027 +1.0982295 -0.3879180</xyz>
+				<total unit="eV">-697.9073089</total>
+				<estat unit="eV">-592.7672389</estat>
+				<eindu unit="eV">-105.1400700</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -2.75008e+00 -6.19799e+02</F-00-01-11>
+				<M-00-11--->+1.21993e-01 +9.56736e+01</M-00-11--->
+				<E-PP-PU-UU>-4.61239e+02 -7.58282e+01 -2.56746e-18</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.88632e+02 = -1.47401e+02 -3.86738e+01 -2.55710e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+9.11241e+00 = +1.28943e+01 -4.26570e+00 +4.83855e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.80260e+02 = +1.61984e+02 +1.77786e+01 +4.97310e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.71893e+02 = +1.59005e+02 +1.19934e+01 +8.95124e-01</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1615</FGC>
+				<FGN>1615</FGN>
+				<MGN>62301</MGN>
+				<BGN>6445</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1614</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">4.40</t_total>
+				<t_wload unit="min">0.00 2.39 0.39 1.62</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>11</id>
+		<tag>4:ss_noh:e</tag>
+		<input>
+				4:ss_noh:MP_FILES/ss_noh_e.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:28:01</time>
+		<output>
+			<summary>
+				<type>bipolaron-like</type>
+				<xyz unit="nm">+0.2915027 +1.0982295 -0.3879180</xyz>
+				<total unit="eV">-701.8969724</total>
+				<estat unit="eV">-595.0814465</estat>
+				<eindu unit="eV">-106.8155259</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -6.33196e+00 -6.19666e+02</F-00-01-11>
+				<M-00-11--->+6.56481e-01 +9.68477e+01</M-00-11--->
+				<E-PP-PU-UU>-4.61382e+02 -7.74063e+01 -5.26055e-18</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.88680e+02 = -1.47401e+02 -3.87146e+01 -2.56398e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+9.42285e+00 = +1.37551e+01 -4.91139e+00 +5.79134e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.80499e+02 = +1.62101e+02 +1.78913e+01 +5.06308e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.74644e+02 = +1.62154e+02 +1.14997e+01 +9.90676e-01</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1615</FGC>
+				<FGN>1615</FGN>
+				<MGN>62301</MGN>
+				<BGN>6445</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1614</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">5.26</t_total>
+				<t_wload unit="min">0.00 2.71 0.38 2.17</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>12</id>
+		<tag>4:ss_noh:h</tag>
+		<input>
+				4:ss_noh:MP_FILES/ss_noh_h.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:27:56</time>
+		<output>
+			<summary>
+				<type>bipolaron-like</type>
+				<xyz unit="nm">+0.2915027 +1.0982295 -0.3879180</xyz>
+				<total unit="eV">-694.5878323</total>
+				<estat unit="eV">-589.8895567</estat>
+				<eindu unit="eV">-104.6982756</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -1.33623e+00 -6.19948e+02</F-00-01-11>
+				<M-00-11--->+2.58910e-01 +9.53095e+01</M-00-11--->
+				<E-PP-PU-UU>-4.60529e+02 -7.55059e+01 +7.39502e-18</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.88568e+02 = -1.47401e+02 -3.86182e+01 -2.54870e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+8.81713e+00 = +1.19584e+01 -3.50221e+00 +3.60908e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.79377e+02 = +1.60946e+02 +1.79250e+01 +5.06299e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.68498e+02 = +1.54863e+02 +1.28452e+01 +7.88969e-01</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1615</FGC>
+				<FGN>1615</FGN>
+				<MGN>62301</MGN>
+				<BGN>6445</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1614</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">5.18</t_total>
+				<t_wload unit="min">0.00 2.77 0.37 2.04</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>13</id>
+		<tag>5:ss:n</tag>
+		<input>
+				5:ss:MP_FILES/ss_n.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:27:42</time>
+		<output>
+			<summary>
+				<type>bipolaron-like</type>
+				<xyz unit="nm">-0.1778859 +0.7310435 -0.3666141</xyz>
+				<total unit="eV">-687.4785114</total>
+				<estat unit="eV">-584.5374302</estat>
+				<eindu unit="eV">-102.9410812</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -1.31167e+00 -6.28880e+02</F-00-01-11>
+				<M-00-11--->+1.55941e-01 +9.48267e+01</M-00-11--->
+				<E-PP-PU-UU>-4.68431e+02 -7.60433e+01 -5.83625e-18</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.77415e+02 = -1.38833e+02 -3.62164e+01 -2.36541e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+8.98135e+00 = +1.27009e+01 -4.20232e+00 +4.82817e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.69624e+02 = +1.52551e+02 +1.66162e+01 +4.56737e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.53460e+02 = +1.42525e+02 +1.00984e+01 +8.36575e-01</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1590</FGC>
+				<FGN>1590</FGN>
+				<MGN>62166</MGN>
+				<BGN>6470</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1589</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">4.95</t_total>
+				<t_wload unit="min">0.00 2.50 0.39 2.05</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>14</id>
+		<tag>5:ss:e</tag>
+		<input>
+				5:ss:MP_FILES/ss_e.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:27:34</time>
+		<output>
+			<summary>
+				<type>bipolaron-like</type>
+				<xyz unit="nm">-0.1778859 +0.7310435 -0.3666141</xyz>
+				<total unit="eV">-687.9487215</total>
+				<estat unit="eV">-583.7928665</estat>
+				<eindu unit="eV">-104.1558551</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -1.00648e+00 -6.29158e+02</F-00-01-11>
+				<M-00-11--->+4.41605e-01 +9.56317e+01</M-00-11--->
+				<E-PP-PU-UU>-4.66200e+02 -7.71513e+01 +2.29331e-17</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.77456e+02 = -1.38833e+02 -3.62515e+01 -2.37111e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+9.05621e+00 = +1.31832e+01 -4.69714e+00 +5.70144e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.70047e+02 = +1.53125e+02 +1.64729e+01 +4.48356e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.55505e+02 = +1.45068e+02 +9.52524e+00 +9.11035e-01</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1590</FGC>
+				<FGN>1590</FGN>
+				<MGN>62166</MGN>
+				<BGN>6470</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1589</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">4.81</t_total>
+				<t_wload unit="min">0.00 2.44 0.38 1.98</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>15</id>
+		<tag>5:ss:h</tag>
+		<input>
+				5:ss:MP_FILES/ss_h.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:27:48</time>
+		<output>
+			<summary>
+				<type>electron-like</type>
+				<xyz unit="nm">-0.1778859 +0.7310435 -0.3666141</xyz>
+				<total unit="eV">-688.2511356</total>
+				<estat unit="eV">-585.2809495</estat>
+				<eindu unit="eV">-102.9701862</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -4.27426e+00 -6.28451e+02</F-00-01-11>
+				<M-00-11--->+3.65643e-01 +9.47798e+01</M-00-11--->
+				<E-PP-PU-UU>-4.70669e+02 -7.61802e+01 -1.84479e-18</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.77375e+02 = -1.38833e+02 -3.61816e+01 -2.35979e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+8.86251e+00 = +1.21905e+01 -3.74748e+00 +4.19437e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.69240e+02 = +1.52088e+02 +1.66909e+01 +4.60762e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.51399e+02 = +1.40057e+02 +1.05600e+01 +7.81739e-01</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1590</FGC>
+				<FGN>1590</FGN>
+				<MGN>62166</MGN>
+				<BGN>6470</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1589</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">5.04</t_total>
+				<t_wload unit="min">0.00 2.69 0.37 1.98</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>16</id>
+		<tag>6:ss:n</tag>
+		<input>
+				6:ss:MP_FILES/ss_n.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:27:45</time>
+		<output>
+			<summary>
+				<type>bipolaron-like</type>
+				<xyz unit="nm">+0.4630761 +0.4937174 -0.2474837</xyz>
+				<total unit="eV">-671.2866455</total>
+				<estat unit="eV">-569.0025442</estat>
+				<eindu unit="eV">-102.2841013</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -9.33685e-01 -6.11267e+02</F-00-01-11>
+				<M-00-11--->+1.40738e-01 +9.37723e+01</M-00-11--->
+				<E-PP-PU-UU>-4.52256e+02 -7.52468e+01 +3.84064e-17</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.76140e+02 = -1.37844e+02 -3.59263e+01 -2.36958e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+9.14630e+00 = +1.29319e+01 -4.29432e+00 +5.08711e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.80950e+02 = +1.62495e+02 +1.79417e+01 +5.12529e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.66954e+02 = +1.54330e+02 +1.16523e+01 +9.72317e-01</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1596</FGC>
+				<FGN>1596</FGN>
+				<MGN>62383</MGN>
+				<BGN>6465</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1595</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">5.00</t_total>
+				<t_wload unit="min">0.00 2.53 0.39 2.08</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>17</id>
+		<tag>6:ss:e</tag>
+		<input>
+				6:ss:MP_FILES/ss_e.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:26:49</time>
+		<output>
+			<summary>
+				<type>bipolaron-like</type>
+				<xyz unit="nm">+0.4630761 +0.4937174 -0.2474837</xyz>
+				<total unit="eV">-671.1605826</total>
+				<estat unit="eV">-567.5155568</estat>
+				<eindu unit="eV">-103.6450259</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 +4.88208e-01 -6.11743e+02</F-00-01-11>
+				<M-00-11--->+3.82745e-01 +9.46944e+01</M-00-11--->
+				<E-PP-PU-UU>-4.48872e+02 -7.65135e+01 +2.88702e-18</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.76188e+02 = -1.37844e+02 -3.59675e+01 -2.37651e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+9.37905e+00 = +1.37894e+01 -5.05128e+00 +6.40925e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.81420e+02 = +1.63083e+02 +1.78299e+01 +5.07354e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.69593e+02 = +1.57672e+02 +1.08280e+01 +1.09335e+00</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1596</FGC>
+				<FGN>1596</FGN>
+				<MGN>62383</MGN>
+				<BGN>6465</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1595</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">4.06</t_total>
+				<t_wload unit="min">0.00 2.16 0.38 1.52</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>18</id>
+		<tag>6:ss:h</tag>
+		<input>
+				6:ss:MP_FILES/ss_h.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:27:30</time>
+		<output>
+			<summary>
+				<type>bipolaron-like</type>
+				<xyz unit="nm">+0.4630761 +0.4937174 -0.2474837</xyz>
+				<total unit="eV">-672.6435805</total>
+				<estat unit="eV">-570.4958134</estat>
+				<eindu unit="eV">-102.1477672</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -4.94457e+00 -6.10647e+02</F-00-01-11>
+				<M-00-11--->+3.62955e-01 +9.36172e+01</M-00-11--->
+				<E-PP-PU-UU>-4.55636e+02 -7.52006e+01 +1.62403e-17</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.76092e+02 = -1.37844e+02 -3.58850e+01 -2.36263e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+8.90147e+00 = +1.20769e+01 -3.57142e+00 +3.95965e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.80488e+02 = +1.61983e+02 +1.79927e+01 +5.12581e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.64329e+02 = +1.51075e+02 +1.23890e+01 +8.65231e-01</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1596</FGC>
+				<FGN>1596</FGN>
+				<MGN>62383</MGN>
+				<BGN>6465</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1595</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">4.76</t_total>
+				<t_wload unit="min">0.00 2.44 0.39 1.92</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>19</id>
+		<tag>7:ss:n</tag>
+		<input>
+				7:ss:MP_FILES/ss_n.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:27:33</time>
+		<output>
+			<summary>
+				<type>electron-like</type>
+				<xyz unit="nm">-0.3335163 +0.3083370 -0.1539728</xyz>
+				<total unit="eV">-686.2592869</total>
+				<estat unit="eV">-581.5627531</estat>
+				<eindu unit="eV">-104.6965338</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -8.47853e-01 -6.17363e+02</F-00-01-11>
+				<M-00-11--->+1.13476e-01 +9.53545e+01</M-00-11--->
+				<E-PP-PU-UU>-4.56809e+02 -7.59345e+01 +3.89934e-17</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.83826e+02 = -1.43832e+02 -3.74353e+01 -2.55926e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+9.78640e+00 = +1.39596e+01 -4.68691e+00 +5.13702e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.77376e+02 = +1.59754e+02 +1.71670e+01 +4.55026e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.66852e+02 = +1.54636e+02 +1.12710e+01 +9.45420e-01</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1599</FGC>
+				<FGN>1599</FGN>
+				<MGN>62333</MGN>
+				<BGN>6461</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1598</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">4.80</t_total>
+				<t_wload unit="min">0.00 2.54 0.40 1.87</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>20</id>
+		<tag>7:ss:e</tag>
+		<input>
+				7:ss:MP_FILES/ss_e.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:27:24</time>
+		<output>
+			<summary>
+				<type>bipolaron-like</type>
+				<xyz unit="nm">-0.3335163 +0.3083370 -0.1539728</xyz>
+				<total unit="eV">-686.8335920</total>
+				<estat unit="eV">-581.3599103</estat>
+				<eindu unit="eV">-105.4736817</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -1.61283e+00 -6.17342e+02</F-00-01-11>
+				<M-00-11--->+2.99819e-01 +9.58114e+01</M-00-11--->
+				<E-PP-PU-UU>-4.56272e+02 -7.65821e+01 -2.04702e-17</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.83861e+02 = -1.43832e+02 -3.74647e+01 -2.56479e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+9.63435e+00 = +1.39555e+01 -4.87731e+00 +5.56129e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.77805e+02 = +1.60297e+02 +1.70594e+01 +4.49157e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.67569e+02 = +1.55508e+02 +1.10823e+01 +9.78212e-01</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1599</FGC>
+				<FGN>1599</FGN>
+				<MGN>62333</MGN>
+				<BGN>6461</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1598</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">4.65</t_total>
+				<t_wload unit="min">0.00 2.46 0.39 1.79</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>21</id>
+		<tag>7:ss:h</tag>
+		<input>
+				7:ss:MP_FILES/ss_h.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:31:04</time>
+		<output>
+			<summary>
+				<type>neutral</type>
+				<xyz unit="nm">-0.3335163 +0.3083370 -0.1539728</xyz>
+				<total unit="eV">-686.8228949</total>
+				<estat unit="eV">-581.8267454</estat>
+				<eindu unit="eV">-104.9961495</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -2.50902e+00 -6.17177e+02</F-00-01-11>
+				<M-00-11--->+2.66779e-01 +9.55791e+01</M-00-11--->
+				<E-PP-PU-UU>-4.57428e+02 -7.63830e+01 -2.29309e-17</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.83787e+02 = -1.43832e+02 -3.74025e+01 -2.55336e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+9.86408e+00 = +1.39050e+01 -4.55291e+00 +5.11990e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.76876e+02 = +1.59262e+02 +1.71601e+01 +4.53821e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.65936e+02 = +1.53735e+02 +1.12570e+01 +9.43993e-01</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1599</FGC>
+				<FGN>1599</FGN>
+				<MGN>62333</MGN>
+				<BGN>6461</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1598</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">4.11</t_total>
+				<t_wload unit="min">0.00 1.89 0.39 1.83</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>22</id>
+		<tag>8:ss_noh:n</tag>
+		<input>
+				8:ss_noh:MP_FILES/ss_noh_n.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:31:05</time>
+		<output>
+			<summary>
+				<type>electron-like</type>
+				<xyz unit="nm">+0.2556284 +0.1591530 -0.4423934</xyz>
+				<total unit="eV">-671.9276099</total>
+				<estat unit="eV">-568.6484599</estat>
+				<eindu unit="eV">-103.2791499</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -3.72458e+00 -5.99795e+02</F-00-01-11>
+				<M-00-11--->+1.07775e-01 +9.37860e+01</M-00-11--->
+				<E-PP-PU-UU>-4.45293e+02 -7.44958e+01 -5.40667e-17</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.82201e+02 = -1.42119e+02 -3.74953e+01 -2.58728e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+9.79106e+00 = +1.33581e+01 -4.17414e+00 +6.07091e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.85338e+02 = +1.66348e+02 +1.84696e+01 +5.20272e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.75229e+02 = +1.60943e+02 +1.31794e+01 +1.10694e+00</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1595</FGC>
+				<FGN>1595</FGN>
+				<MGN>62338</MGN>
+				<BGN>6465</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1594</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">3.78</t_total>
+				<t_wload unit="min">0.00 2.11 0.39 1.29</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>23</id>
+		<tag>8:ss_noh:e</tag>
+		<input>
+				8:ss_noh:MP_FILES/ss_noh_e.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:31:33</time>
+		<output>
+			<summary>
+				<type>bipolaron-like</type>
+				<xyz unit="nm">+0.2556284 +0.1591530 -0.4423934</xyz>
+				<total unit="eV">-676.3964389</total>
+				<estat unit="eV">-571.2653716</estat>
+				<eindu unit="eV">-105.1310673</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -9.25977e+00 -5.99714e+02</F-00-01-11>
+				<M-00-11--->+6.36725e-01 +9.51354e+01</M-00-11--->
+				<E-PP-PU-UU>-4.47120e+02 -7.62318e+01 -4.19058e-17</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.82235e+02 = -1.42119e+02 -3.75227e+01 -2.59316e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+9.95076e+00 = +1.40527e+01 -4.81801e+00 +7.16116e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.85217e+02 = +1.66334e+02 +1.83664e+01 +5.17324e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.76128e+02 = +1.62413e+02 +1.25107e+01 +1.20510e+00</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1595</FGC>
+				<FGN>1595</FGN>
+				<MGN>62338</MGN>
+				<BGN>6465</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1594</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">4.16</t_total>
+				<t_wload unit="min">0.00 2.14 0.38 1.63</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>24</id>
+		<tag>8:ss_noh:h</tag>
+		<input>
+				8:ss_noh:MP_FILES/ss_noh_h.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:31:40</time>
+		<output>
+			<summary>
+				<type>neutral</type>
+				<xyz unit="nm">+0.2556284 +0.1591530 -0.4423934</xyz>
+				<total unit="eV">-668.5616189</total>
+				<estat unit="eV">-565.7503992</estat>
+				<eindu unit="eV">-102.8112197</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -8.96445e-01 -5.99985e+02</F-00-01-11>
+				<M-00-11--->+2.28492e-01 +9.34378e+01</M-00-11--->
+				<E-PP-PU-UU>-4.43245e+02 -7.41485e+01 +1.49575e-17</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.82144e+02 = -1.42119e+02 -3.74454e+01 -2.57951e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+9.60737e+00 = +1.25270e+01 -3.38750e+00 +4.67882e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.84471e+02 = +1.65292e+02 +1.86473e+01 +5.31511e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.73281e+02 = +1.58206e+02 +1.40859e+01 +9.89217e-01</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1595</FGC>
+				<FGN>1595</FGN>
+				<MGN>62338</MGN>
+				<BGN>6465</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1594</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">4.11</t_total>
+				<t_wload unit="min">0.00 2.20 0.38 1.53</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>25</id>
+		<tag>9:ss:n</tag>
+		<input>
+				9:ss:MP_FILES/ss_n.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:31:49</time>
+		<output>
+			<summary>
+				<type>bipolaron-like</type>
+				<xyz unit="nm">-0.1847663 -0.0439837 -0.4420000</xyz>
+				<total unit="eV">-670.4800955</total>
+				<estat unit="eV">-568.0945155</estat>
+				<eindu unit="eV">-102.3855801</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -8.38149e-01 -5.98833e+02</F-00-01-11>
+				<M-00-11--->+1.27911e-01 +9.26245e+01</M-00-11--->
+				<E-PP-PU-UU>-4.42879e+02 -7.37924e+01 +3.23525e-18</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.82622e+02 = -1.42762e+02 -3.74138e+01 -2.44642e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+1.02869e+01 = +1.38376e+01 -4.15973e+00 +6.09048e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.86401e+02 = +1.67424e+02 +1.84633e+01 +5.13100e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.77627e+02 = +1.63716e+02 +1.28248e+01 +1.08666e+00</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1587</FGC>
+				<FGN>1587</FGN>
+				<MGN>62363</MGN>
+				<BGN>6473</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1586</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">4.17</t_total>
+				<t_wload unit="min">0.00 2.46 0.37 1.34</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>26</id>
+		<tag>9:ss:e</tag>
+		<input>
+				9:ss:MP_FILES/ss_e.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:31:59</time>
+		<output>
+			<summary>
+				<type>bipolaron-like</type>
+				<xyz unit="nm">-0.1847663 -0.0439837 -0.4420000</xyz>
+				<total unit="eV">-671.3631936</total>
+				<estat unit="eV">-567.8463616</estat>
+				<eindu unit="eV">-103.5168320</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -9.74090e-01 -5.99133e+02</F-00-01-11>
+				<M-00-11--->+3.48113e-01 +9.34305e+01</M-00-11--->
+				<E-PP-PU-UU>-4.41263e+02 -7.48084e+01 +2.64430e-17</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.82665e+02 = -1.42762e+02 -3.74495e+01 -2.45437e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+1.01171e+01 = +1.39454e+01 -4.51355e+00 +6.85220e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.86712e+02 = +1.67967e+02 +1.82443e+01 +5.00531e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.79199e+02 = +1.65734e+02 +1.23206e+01 +1.14389e+00</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1587</FGC>
+				<FGN>1587</FGN>
+				<MGN>62363</MGN>
+				<BGN>6473</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1586</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">4.34</t_total>
+				<t_wload unit="min">0.00 2.24 0.38 1.72</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>27</id>
+		<tag>9:ss:h</tag>
+		<input>
+				9:ss:MP_FILES/ss_h.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:32:09</time>
+		<output>
+			<summary>
+				<type>electron-like</type>
+				<xyz unit="nm">-0.1847663 -0.0439837 -0.4420000</xyz>
+				<total unit="eV">-670.7108555</total>
+				<estat unit="eV">-568.2891789</estat>
+				<eindu unit="eV">-102.4216765</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -3.13357e+00 -5.98416e+02</F-00-01-11>
+				<M-00-11--->+2.83869e-01 +9.26261e+01</M-00-11--->
+				<E-PP-PU-UU>-4.44440e+02 -7.39521e+01 +3.24287e-18</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.82578e+02 = -1.42762e+02 -3.73779e+01 -2.43840e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+1.04280e+01 = +1.37143e+01 -3.84228e+00 +5.55995e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.86106e+02 = +1.67037e+02 +1.85513e+01 +5.17445e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.76027e+02 = +1.61839e+02 +1.31459e+01 +1.04215e+00</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1587</FGC>
+				<FGN>1587</FGN>
+				<MGN>62363</MGN>
+				<BGN>6473</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1586</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">4.49</t_total>
+				<t_wload unit="min">0.00 2.32 0.38 1.78</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>28</id>
+		<tag>10:ss:n</tag>
+		<input>
+				10:ss:MP_FILES/ss_n.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:32:18</time>
+		<output>
+			<summary>
+				<type>electron-like</type>
+				<xyz unit="nm">-0.3800000 -0.3775761 -0.3584185</xyz>
+				<total unit="eV">-667.8097029</total>
+				<estat unit="eV">-565.0815964</estat>
+				<eindu unit="eV">-102.7281065</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -1.37910e+00 -5.93735e+02</F-00-01-11>
+				<M-00-11--->+1.87084e-01 +9.25541e+01</M-00-11--->
+				<E-PP-PU-UU>-4.39234e+02 -7.33457e+01 -4.08879e-17</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.87116e+02 = -1.45825e+02 -3.87040e+01 -2.58689e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+1.04273e+01 = +1.39687e+01 -4.08359e+00 +5.42191e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.90685e+02 = +1.71022e+02 +1.91301e+01 +5.33510e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.79433e+02 = +1.65013e+02 +1.34076e+01 +1.01254e+00</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1593</FGC>
+				<FGN>1593</FGN>
+				<MGN>62229</MGN>
+				<BGN>6468</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1592</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">4.61</t_total>
+				<t_wload unit="min">0.00 2.32 0.38 1.91</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>29</id>
+		<tag>10:ss:e</tag>
+		<input>
+				10:ss:MP_FILES/ss_e.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:32:31</time>
+		<output>
+			<summary>
+				<type>bipolaron-like</type>
+				<xyz unit="nm">-0.3800000 -0.3775761 -0.3584185</xyz>
+				<total unit="eV">-669.0602533</total>
+				<estat unit="eV">-565.5122348</estat>
+				<eindu unit="eV">-103.5480184</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -2.63264e+00 -5.93686e+02</F-00-01-11>
+				<M-00-11--->+5.19077e-01 +9.29667e+01</M-00-11--->
+				<E-PP-PU-UU>-4.38956e+02 -7.40546e+01 -3.27440e-17</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.87137e+02 = -1.45825e+02 -3.87176e+01 -2.59401e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+1.00768e+01 = +1.36801e+01 -4.19204e+00 +5.88794e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.91124e+02 = +1.71572e+02 +1.90246e+01 +5.27891e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.80292e+02 = +1.65983e+02 +1.32638e+01 +1.04499e+00</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1593</FGC>
+				<FGN>1593</FGN>
+				<MGN>62229</MGN>
+				<BGN>6468</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1592</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">4.81</t_total>
+				<t_wload unit="min">0.00 2.52 0.38 1.92</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>30</id>
+		<tag>10:ss:h</tag>
+		<input>
+				10:ss:MP_FILES/ss_h.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:32:01</time>
+		<output>
+			<summary>
+				<type>neutral</type>
+				<xyz unit="nm">-0.3800000 -0.3775761 -0.3584185</xyz>
+				<total unit="eV">-667.9815096</total>
+				<estat unit="eV">-564.7463955</estat>
+				<eindu unit="eV">-103.2351141</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -3.14054e+00 -5.93574e+02</F-00-01-11>
+				<M-00-11--->+4.58904e-01 +9.28905e+01</M-00-11--->
+				<E-PP-PU-UU>-4.39607e+02 -7.39783e+01 +5.38499e-17</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.87095e+02 = -1.45825e+02 -3.86900e+01 -2.57954e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+1.07142e+01 = +1.42017e+01 -4.03859e+00 +5.51137e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.90248e+02 = +1.70549e+02 +1.91646e+01 +5.35009e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.78484e+02 = +1.64065e+02 +1.33904e+01 +1.02945e+00</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1593</FGC>
+				<FGN>1593</FGN>
+				<MGN>62229</MGN>
+				<BGN>6468</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1592</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">4.31</t_total>
+				<t_wload unit="min">0.00 2.27 0.38 1.67</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>31</id>
+		<tag>11:ss:n</tag>
+		<input>
+				11:ss:MP_FILES/ss_n.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:32:15</time>
+		<output>
+			<summary>
+				<type>neutral</type>
+				<xyz unit="nm">-0.1509728 -0.6157120 -0.5522826</xyz>
+				<total unit="eV">-662.6237762</total>
+				<estat unit="eV">-561.8485546</estat>
+				<eindu unit="eV">-100.7752216</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -1.13216e+00 -5.94916e+02</F-00-01-11>
+				<M-00-11--->+1.55050e-01 +9.19342e+01</M-00-11--->
+				<E-PP-PU-UU>-4.40970e+02 -7.29461e+01 +4.85379e-18</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.81454e+02 = -1.41615e+02 -3.73738e+01 -2.46495e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+9.40897e+00 = +1.21556e+01 -3.35483e+00 +6.08159e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.85975e+02 = +1.66359e+02 +1.90670e+01 +5.49535e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.72595e+02 = +1.57777e+02 +1.37705e+01 +1.04711e+00</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1590</FGC>
+				<FGN>1590</FGN>
+				<MGN>62288</MGN>
+				<BGN>6470</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1589</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">4.50</t_total>
+				<t_wload unit="min">0.00 2.25 0.38 1.88</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>32</id>
+		<tag>11:ss:e</tag>
+		<input>
+				11:ss:MP_FILES/ss_e.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:32:51</time>
+		<output>
+			<summary>
+				<type>electron-like</type>
+				<xyz unit="nm">-0.1509728 -0.6157120 -0.5522826</xyz>
+				<total unit="eV">-663.3505941</total>
+				<estat unit="eV">-561.3029377</estat>
+				<eindu unit="eV">-102.0476564</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -2.13658e+00 -5.95353e+02</F-00-01-11>
+				<M-00-11--->+4.09935e-01 +9.28593e+01</M-00-11--->
+				<E-PP-PU-UU>-4.40027e+02 -7.41222e+01 +8.05610e-19</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.81470e+02 = -1.41615e+02 -3.73843e+01 -2.47100e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+9.19083e+00 = +1.22610e+01 -3.77506e+00 +7.04881e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.86249e+02 = +1.66892e+02 +1.88211e+01 +5.36005e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.73099e+02 = +1.58813e+02 +1.31628e+01 +1.12329e+00</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1590</FGC>
+				<FGN>1590</FGN>
+				<MGN>62288</MGN>
+				<BGN>6470</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1589</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">5.06</t_total>
+				<t_wload unit="min">0.00 2.58 0.37 2.11</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>33</id>
+		<tag>11:ss:h</tag>
+		<input>
+				11:ss:MP_FILES/ss_h.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:32:16</time>
+		<output>
+			<summary>
+				<type>hole-like</type>
+				<xyz unit="nm">-0.1509728 -0.6157120 -0.5522826</xyz>
+				<total unit="eV">-663.0758990</total>
+				<estat unit="eV">-562.3105928</estat>
+				<eindu unit="eV">-100.7653062</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -2.72966e+00 -5.94387e+02</F-00-01-11>
+				<M-00-11--->+3.51797e-01 +9.18581e+01</M-00-11--->
+				<E-PP-PU-UU>-4.41821e+02 -7.30517e+01 +7.51029e-18</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.81437e+02 = -1.41615e+02 -3.73628e+01 -2.45889e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+9.61887e+00 = +1.20504e+01 -2.96912e+00 +5.37590e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.85713e+02 = +1.65986e+02 +1.91733e+01 +5.54385e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.72064e+02 = +1.56911e+02 +1.41677e+01 +9.85810e-01</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1590</FGC>
+				<FGN>1590</FGN>
+				<MGN>62288</MGN>
+				<BGN>6470</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1589</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">4.42</t_total>
+				<t_wload unit="min">0.00 2.31 0.38 1.73</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>34</id>
+		<tag>12:ss_noh:n</tag>
+		<input>
+				12:ss_noh:MP_FILES/ss_noh_n.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:32:33</time>
+		<output>
+			<summary>
+				<type>bipolaron-like</type>
+				<xyz unit="nm">-0.2073989 -0.9858197 -0.5234645</xyz>
+				<total unit="eV">-674.9696197</total>
+				<estat unit="eV">-573.2182940</estat>
+				<eindu unit="eV">-101.7513257</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -4.62329e+00 -6.06435e+02</F-00-01-11>
+				<M-00-11--->+1.27938e-01 +9.27849e+01</M-00-11--->
+				<E-PP-PU-UU>-4.53549e+02 -7.40386e+01 -2.99835e-17</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.79029e+02 = -1.39821e+02 -3.68186e+01 -2.38886e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+9.46019e+00 = +1.24806e+01 -3.61304e+00 +5.92659e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.81395e+02 = +1.62153e+02 +1.86974e+01 +5.44983e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.68651e+02 = +1.54482e+02 +1.31312e+01 +1.03792e+00</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1610</FGC>
+				<FGN>1610</FGN>
+				<MGN>62302</MGN>
+				<BGN>6450</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1609</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">4.65</t_total>
+				<t_wload unit="min">0.00 2.43 0.38 1.84</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>35</id>
+		<tag>12:ss_noh:e</tag>
+		<input>
+				12:ss_noh:MP_FILES/ss_noh_e.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:32:32</time>
+		<output>
+			<summary>
+				<type>bipolaron-like</type>
+				<xyz unit="nm">-0.2073989 -0.9858197 -0.5234645</xyz>
+				<total unit="eV">-680.0686449</total>
+				<estat unit="eV">-576.5467805</estat>
+				<eindu unit="eV">-103.5218644</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -1.04277e+01 -6.06224e+02</F-00-01-11>
+				<M-00-11--->+7.02813e-01 +9.40196e+01</M-00-11--->
+				<E-PP-PU-UU>-4.55598e+02 -7.57352e+01 -1.56228e-17</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.79055e+02 = -1.39821e+02 -3.68398e+01 -2.39384e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+9.20505e+00 = +1.25769e+01 -4.07676e+00 +7.04877e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.81541e+02 = +1.62185e+02 +1.88006e+01 +5.55853e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.69831e+02 = +1.55889e+02 +1.27841e+01 +1.15735e+00</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1610</FGC>
+				<FGN>1610</FGN>
+				<MGN>62302</MGN>
+				<BGN>6450</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1609</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">4.59</t_total>
+				<t_wload unit="min">0.00 2.49 0.38 1.73</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>36</id>
+		<tag>12:ss_noh:h</tag>
+		<input>
+				12:ss_noh:MP_FILES/ss_noh_h.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:32:35</time>
+		<output>
+			<summary>
+				<type>electron-like</type>
+				<xyz unit="nm">-0.2073989 -0.9858197 -0.5234645</xyz>
+				<total unit="eV">-670.5202186</total>
+				<estat unit="eV">-569.0429296</estat>
+				<eindu unit="eV">-101.4772890</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -1.10597e+00 -6.06676e+02</F-00-01-11>
+				<M-00-11--->+2.47950e-01 +9.24698e+01</M-00-11--->
+				<E-PP-PU-UU>-4.50636e+02 -7.38750e+01 -1.03516e-17</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.78987e+02 = -1.39821e+02 -3.67828e+01 -2.38312e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+9.72918e+00 = +1.25009e+01 -3.30138e+00 +5.29654e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.80628e+02 = +1.61169e+02 +1.89014e+01 +5.57986e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.66826e+02 = +1.52255e+02 +1.35777e+01 +9.93326e-01</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1610</FGC>
+				<FGN>1610</FGN>
+				<MGN>62302</MGN>
+				<BGN>6450</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1609</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">4.61</t_total>
+				<t_wload unit="min">0.00 2.41 0.37 1.83</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>37</id>
+		<tag>13:ss:n</tag>
+		<input>
+				13:ss:MP_FILES/ss_n.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:32:42</time>
+		<output>
+			<summary>
+				<type>neutral</type>
+				<xyz unit="nm">-0.3268641 -1.3348913 -0.3032120</xyz>
+				<total unit="eV">-675.6960605</total>
+				<estat unit="eV">-573.5603498</estat>
+				<eindu unit="eV">-102.1357107</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -1.37940e+00 -6.15230e+02</F-00-01-11>
+				<M-00-11--->+1.91545e-01 +9.30475e+01</M-00-11--->
+				<E-PP-PU-UU>-4.59537e+02 -7.37635e+01 -5.06906e-17</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.78060e+02 = -1.38099e+02 -3.75040e+01 -2.45758e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+8.46037e+00 = +1.08614e+01 -2.92137e+00 +5.20325e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.70873e+02 = +1.52328e+02 +1.80111e+01 +5.33307e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.53598e+02 = +1.39115e+02 +1.34946e+01 +9.89130e-01</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1620</FGC>
+				<FGN>1620</FGN>
+				<MGN>62273</MGN>
+				<BGN>6440</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1619</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">4.69</t_total>
+				<t_wload unit="min">0.00 2.38 0.37 1.93</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>38</id>
+		<tag>13:ss:e</tag>
+		<input>
+				 13:ss:MP_FILES/ss_e.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:32:48</time>
+		<output>
+			<summary>
+				<type>electron-like</type>
+				<xyz unit="nm">-0.3268641 -1.3348913 -0.3032120</xyz>
+				<total unit="eV">-676.8222028</total>
+				<estat unit="eV">-573.4848671</estat>
+				<eindu unit="eV">-103.3373357</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -3.30218e+00 -6.15541e+02</F-00-01-11>
+				<M-00-11--->+5.26262e-01 +9.38912e+01</M-00-11--->
+				<E-PP-PU-UU>-4.59447e+02 -7.48929e+01 -1.06419e-17</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.78074e+02 = -1.38099e+02 -3.75134e+01 -2.46179e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+8.09740e+00 = +1.06728e+01 -3.16485e+00 +5.89469e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.71216e+02 = +1.52811e+02 +1.78783e+01 +5.26829e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.53635e+02 = +1.39423e+02 +1.31647e+01 +1.04799e+00</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1620</FGC>
+				<FGN>1620</FGN>
+				<MGN>62273</MGN>
+				<BGN>6440</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1619</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">4.71</t_total>
+				<t_wload unit="min">0.00 2.50 0.38 1.83</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>39</id>
+		<tag>13:ss:h</tag>
+		<input>
+				 13:ss:MP_FILES/ss_h.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:32:53</time>
+		<output>
+			<summary>
+				<type>hole-like</type>
+				<xyz unit="nm">-0.3268641 -1.3348913 -0.3032120</xyz>
+				<total unit="eV">-675.9994143</total>
+				<estat unit="eV">-573.7144819</estat>
+				<eindu unit="eV">-102.2849324</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -2.45913e+00 -6.14732e+02</F-00-01-11>
+				<M-00-11--->+4.38259e-01 +9.30172e+01</M-00-11--->
+				<E-PP-PU-UU>-4.59704e+02 -7.39812e+01 -8.88793e-18</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.78044e+02 = -1.38099e+02 -3.74928e+01 -2.45304e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+8.79083e+00 = +1.10150e+01 -2.71354e+00 +4.89377e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.70404e+02 = +1.51900e+02 +1.79747e+01 +5.29153e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.53414e+02 = +1.38827e+02 +1.36303e+01 +9.56435e-01</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1620</FGC>
+				<FGN>1620</FGN>
+				<MGN>62273</MGN>
+				<BGN>6440</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1619</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">4.73</t_total>
+				<t_wload unit="min">0.00 2.50 0.38 1.85</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>40</id>
+		<tag>14:ss:n</tag>
+		<input>
+				 14:ss:MP_FILES/ss_n.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:33:08</time>
+		<output>
+			<summary>
+				<type>hole-like</type>
+				<xyz unit="nm">-0.1044293 -1.6175598 -0.4467011</xyz>
+				<total unit="eV">-684.4574779</total>
+				<estat unit="eV">-580.9431151</estat>
+				<eindu unit="eV">-103.5143628</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -1.10457e+00 -6.21538e+02</F-00-01-11>
+				<M-00-11--->+1.67715e-01 +9.44210e+01</M-00-11--->
+				<E-PP-PU-UU>-4.63664e+02 -7.45688e+01 -3.03015e-17</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.82453e+02 = -1.41603e+02 -3.84353e+01 -2.41395e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+8.26046e+00 = +1.04648e+01 -2.76061e+00 +5.56223e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.71430e+02 = +1.53430e+02 +1.74886e+01 +5.11114e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.53642e+02 = +1.39571e+02 +1.31058e+01 +9.65466e-01</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1620</FGC>
+				<FGN>1620</FGN>
+				<MGN>62205</MGN>
+				<BGN>6440</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1619</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">4.98</t_total>
+				<t_wload unit="min">0.00 2.65 0.36 1.97</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>41</id>
+		<tag>14:ss:e</tag>
+		<input>
+				 14:ss:MP_FILES/ss_e.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:35:45</time>
+		<output>
+			<summary>
+				<type>neutral</type>
+				<xyz unit="nm">-0.1044293 -1.6175598 -0.4467011</xyz>
+				<total unit="eV">-685.6555139</total>
+				<estat unit="eV">-580.9362329</estat>
+				<eindu unit="eV">-104.7192811</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -3.41327e+00 -6.21966e+02</F-00-01-11>
+				<M-00-11--->+4.71132e-01 +9.53166e+01</M-00-11--->
+				<E-PP-PU-UU>-4.63997e+02 -7.57466e+01 +1.03345e-17</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.82446e+02 = -1.41603e+02 -3.84252e+01 -2.41741e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+7.88786e+00 = +1.03855e+01 -3.15367e+00 +6.56053e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.71784e+02 = +1.53973e+02 +1.73098e+01 +5.01087e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.53289e+02 = +1.39694e+02 +1.25435e+01 +1.05172e+00</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1620</FGC>
+				<FGN>1620</FGN>
+				<MGN>62205</MGN>
+				<BGN>6440</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1619</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">4.53</t_total>
+				<t_wload unit="min">0.00 2.24 0.38 1.92</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>42</id>
+		<tag>14:ss:h</tag>
+		<input>
+				 14:ss:MP_FILES/ss_h.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:35:52</time>
+		<output>
+			<summary>
+				<type>bipolaron-like</type>
+				<xyz unit="nm">-0.1044293 -1.6175598 -0.4467011</xyz>
+				<total unit="eV">-684.5175223</total>
+				<estat unit="eV">-580.9380214</estat>
+				<eindu unit="eV">-103.5795009</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -1.42481e+00 -6.20997e+02</F-00-01-11>
+				<M-00-11--->+3.71763e-01 +9.43257e+01</M-00-11--->
+				<E-PP-PU-UU>-4.63306e+02 -7.46436e+01 -2.52671e-17</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.82461e+02 = -1.41603e+02 -3.84467e+01 -2.41053e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+8.60459e+00 = +1.05250e+01 -2.40445e+00 +4.84076e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.71038e+02 = +1.53008e+02 +1.75176e+01 +5.12745e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.53975e+02 = +1.39561e+02 +1.35155e+01 +8.98639e-01</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1620</FGC>
+				<FGN>1620</FGN>
+				<MGN>62205</MGN>
+				<BGN>6440</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1619</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">4.63</t_total>
+				<t_wload unit="min">0.00 2.38 0.38 1.87</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>43</id>
+		<tag>15:ss:n</tag>
+		<input>
+				 15:ss:MP_FILES/ss_n.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:36:23</time>
+		<output>
+			<summary>
+				<type>neutral</type>
+				<xyz unit="nm">-0.0784946 -1.9326467 -0.3035815</xyz>
+				<total unit="eV">-687.6564766</total>
+				<estat unit="eV">-584.3017894</estat>
+				<eindu unit="eV">-103.3546872</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -1.41737e+00 -6.38474e+02</F-00-01-11>
+				<M-00-11--->+2.33440e-01 +9.46636e+01</M-00-11--->
+				<E-PP-PU-UU>-4.79354e+02 -7.51986e+01 +1.14792e-17</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.72319e+02 = -1.33020e+02 -3.69914e+01 -2.30751e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+8.36861e+00 = +1.06779e+01 -2.77706e+00 +4.67820e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.71216e+02 = +1.53150e+02 +1.75533e+01 +5.12562e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.49927e+02 = +1.35756e+02 +1.32437e+01 +9.27947e-01</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1645</FGC>
+				<FGN>1645</FGN>
+				<MGN>62120</MGN>
+				<BGN>6415</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1644</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">4.69</t_total>
+				<t_wload unit="min">0.00 2.50 0.37 1.81</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>44</id>
+		<tag>15:ss:e</tag>
+		<input>
+				 15:ss:MP_FILES/ss_e.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:36:15</time>
+		<output>
+			<summary>
+				<type>electron-like</type>
+				<xyz unit="nm">-0.0784946 -1.9326467 -0.3035815</xyz>
+				<total unit="eV">-689.3409541</total>
+				<estat unit="eV">-584.9003916</estat>
+				<eindu unit="eV">-104.4405626</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -3.95442e+00 -6.38709e+02</F-00-01-11>
+				<M-00-11--->+6.67571e-01 +9.53927e+01</M-00-11--->
+				<E-PP-PU-UU>-4.79840e+02 -7.62891e+01 -8.22015e-18</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.72331e+02 = -1.33020e+02 -3.69987e+01 -2.31268e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+7.96039e+00 = +1.04673e+01 -3.05360e+00 +5.46642e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.71575e+02 = +1.53558e+02 +1.75069e+01 +5.10225e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.49942e+02 = +1.36065e+02 +1.28759e+01 +1.00112e+00</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1645</FGC>
+				<FGN>1645</FGN>
+				<MGN>62120</MGN>
+				<BGN>6415</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1644</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">4.43</t_total>
+				<t_wload unit="min">0.00 2.25 0.39 1.79</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>45</id>
+		<tag>15:ss:h</tag>
+		<input>
+				 15:ss:MP_FILES/ss_h.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:37:05</time>
+		<output>
+			<summary>
+				<type>hole-like</type>
+				<xyz unit="nm">-0.0784946 -1.9326467 -0.3035815</xyz>
+				<total unit="eV">-687.4198395</total>
+				<estat unit="eV">-583.6785311</estat>
+				<eindu unit="eV">-103.7413084</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -2.00972e+00 -6.38114e+02</F-00-01-11>
+				<M-00-11--->+5.59936e-01 +9.47741e+01</M-00-11--->
+				<E-PP-PU-UU>-4.78822e+02 -7.55683e+01 +1.55078e-17</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.72307e+02 = -1.33020e+02 -3.69849e+01 -2.30226e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+8.74728e+00 = +1.08674e+01 -2.54446e+00 +4.24379e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.70827e+02 = +1.52837e+02 +1.74809e+01 +5.08717e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.49897e+02 = +1.35541e+02 +1.34706e+01 +8.85205e-01</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1645</FGC>
+				<FGN>1645</FGN>
+				<MGN>62120</MGN>
+				<BGN>6415</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1644</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">5.12</t_total>
+				<t_wload unit="min">0.00 2.76 0.37 1.99</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>46</id>
+		<tag>16:ss_noh:n</tag>
+		<input>
+				 16:ss_noh:MP_FILES/ss_noh_n.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:36:37</time>
+		<output>
+			<summary>
+				<type>neutral</type>
+				<xyz unit="nm">+0.6755246 -1.8248197 -0.0255574</xyz>
+				<total unit="eV">-692.6654408</total>
+				<estat unit="eV">-589.0174167</estat>
+				<eindu unit="eV">-103.6480241</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -5.67463e+00 -6.32589e+02</F-00-01-11>
+				<M-00-11--->+1.55876e-01 +9.47279e+01</M-00-11--->
+				<E-PP-PU-UU>-4.78155e+02 -7.49906e+01 +2.09114e-17</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.76134e+02 = -1.36682e+02 -3.72053e+01 -2.24634e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+8.02883e+00 = +1.07933e+01 -3.20532e+00 +4.40852e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.75273e+02 = +1.56309e+02 +1.84100e+01 +5.54171e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.56454e+02 = +1.41282e+02 +1.42267e+01 +9.45171e-01</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1652</FGC>
+				<FGN>1652</FGN>
+				<MGN>62251</MGN>
+				<BGN>6408</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1651</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">4.48</t_total>
+				<t_wload unit="min">0.00 2.29 0.38 1.82</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>47</id>
+		<tag>16:ss_noh:e</tag>
+		<input>
+				  16:ss_noh:MP_FILES/ss_noh_e.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:36:28</time>
+		<output>
+			<summary>
+				<type>electron-like</type>
+				<xyz unit="nm">+0.6755246 -1.8248197 -0.0255574</xyz>
+				<total unit="eV">-697.6173322</total>
+				<estat unit="eV">-592.2937051</estat>
+				<eindu unit="eV">-105.3236271</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -1.24904e+01 -6.32495e+02</F-00-01-11>
+				<M-00-11--->+8.75242e-01 +9.58674e+01</M-00-11--->
+				<E-PP-PU-UU>-4.81335e+02 -7.66605e+01 -4.18259e-17</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.76144e+02 = -1.36682e+02 -3.72104e+01 -2.25140e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+8.02705e+00 = +1.12251e+01 -3.74828e+00 +5.50232e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.75321e+02 = +1.56475e+02 +1.82978e+01 +5.48129e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.56579e+02 = +1.41977e+02 +1.35597e+01 +1.04255e+00</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1652</FGC>
+				<FGN>1652</FGN>
+				<MGN>62251</MGN>
+				<BGN>6408</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1651</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">4.28</t_total>
+				<t_wload unit="min">0.00 2.24 0.39 1.65</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>48</id>
+		<tag>16:ss_noh:h</tag>
+		<input>
+				  16:ss_noh:MP_FILES/ss_noh_h.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:36:23</time>
+		<output>
+			<summary>
+				<type>hole-like</type>
+				<xyz unit="nm">+0.6755246 -1.8248197 -0.0255574</xyz>
+				<total unit="eV">-688.5505852</total>
+				<estat unit="eV">-585.1981302</estat>
+				<eindu unit="eV">-103.3524550</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -1.34796e+00 -6.32631e+02</F-00-01-11>
+				<M-00-11--->+3.24789e-01 +9.43143e+01</M-00-11--->
+				<E-PP-PU-UU>-4.74455e+02 -7.46828e+01 +2.93317e-17</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.76107e+02 = -1.36682e+02 -3.71842e+01 -2.24047e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+7.95903e+00 = +1.01966e+01 -2.57894e+00 +3.41386e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.74528e+02 = +1.55672e+02 +1.83084e+01 +5.47806e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.55591e+02 = +1.39929e+02 +1.48178e+01 +8.43644e-01</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1652</FGC>
+				<FGN>1652</FGN>
+				<MGN>62251</MGN>
+				<BGN>6408</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1651</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">4.09</t_total>
+				<t_wload unit="min">0.00 2.22 0.38 1.49</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>49</id>
+		<tag>17:edoth:n</tag>
+		<input>
+				17:edoth:MP_FILES/edoth_n.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:36:23</time>
+		<output>
+			<summary>
+				<type>bipolaron-like</type>
+				<xyz unit="nm">+0.4729007 +1.9271206 +0.8064610</xyz>
+				<total unit="eV">-688.5778237</total>
+				<estat unit="eV">-585.4299700</estat>
+				<eindu unit="eV">-103.1478537</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -4.23012e-01 -6.47846e+02</F-00-01-11>
+				<M-00-11--->+2.58804e-01 +9.52721e+01</M-00-11--->
+				<E-PP-PU-UU>-4.86273e+02 -7.59215e+01 -1.39509e-17</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.74573e+02 = -1.35354e+02 -3.69454e+01 -2.27318e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+4.71431e+00 = +7.54500e+00 -3.19105e+00 +3.60357e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.65527e+02 = +1.48710e+02 +1.63691e+01 +4.48148e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.31509e+02 = +1.20057e+02 +1.07333e+01 +7.17857e-01</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1635</FGC>
+				<FGN>1635</FGN>
+				<MGN>62273</MGN>
+				<BGN>6425</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1634</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">3.99</t_total>
+				<t_wload unit="min">0.00 2.19 0.36 1.44</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>50</id>
+		<tag>17:edoth:e</tag>
+		<input>
+				17:edoth:MP_FILES/edoth_e.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:37:07</time>
+		<output>
+			<summary>
+				<type>hole-like</type>
+				<xyz unit="nm">+0.4729007 +1.9271206 +0.8064610</xyz>
+				<total unit="eV">-688.8533015</total>
+				<estat unit="eV">-584.5423981</estat>
+				<eindu unit="eV">-104.3109034</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -2.62532e+00 -6.47869e+02</F-00-01-11>
+				<M-00-11--->+7.66994e-01 +9.58880e+01</M-00-11--->
+				<E-PP-PU-UU>-4.86196e+02 -7.70828e+01 -2.32365e-17</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.74575e+02 = -1.35354e+02 -3.69443e+01 -2.27578e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+4.68519e+00 = +7.57201e+00 -3.25500e+00 +3.68177e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.65691e+02 = +1.48868e+02 +1.63745e+01 +4.48748e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.30816e+02 = +1.19433e+02 +1.06604e+01 +7.23181e-01</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1635</FGC>
+				<FGN>1635</FGN>
+				<MGN>62273</MGN>
+				<BGN>6425</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1634</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">4.69</t_total>
+				<t_wload unit="min">0.00 2.77 0.36 1.56</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>51</id>
+		<tag>17:edoth:h</tag>
+		<input>
+				17:edoth:MP_FILES/edoth_h.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:37:11</time>
+		<output>
+			<summary>
+				<type>bipolaron-like</type>
+				<xyz unit="nm">+0.4729007 +1.9271206 +0.8064610</xyz>
+				<total unit="eV">-690.1278314</total>
+				<estat unit="eV">-586.2515109</estat>
+				<eindu unit="eV">-103.8763205</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -2.05037e+00 -6.47813e+02</F-00-01-11>
+				<M-00-11--->+7.53980e-01 +9.56549e+01</M-00-11--->
+				<E-PP-PU-UU>-4.86283e+02 -7.66494e+01 -1.15042e-17</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.74567e+02 = -1.35354e+02 -3.69427e+01 -2.26991e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+4.69073e+00 = +7.50217e+00 -3.17332e+00 +3.61881e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.65167e+02 = +1.48519e+02 +1.62094e+01 +4.38807e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.31964e+02 = +1.20635e+02 +1.06181e+01 +7.11285e-01</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1635</FGC>
+				<FGN>1635</FGN>
+				<MGN>62273</MGN>
+				<BGN>6425</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1634</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">4.74</t_total>
+				<t_wload unit="min">0.00 2.80 0.36 1.58</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>52</id>
+		<tag>18:edot_noh:n</tag>
+		<input>
+				18:edot_noh:MP_FILES/edot_noh_n.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:37:06</time>
+		<output>
+			<summary>
+				<type>electron-like</type>
+				<xyz unit="nm">+0.1252214 +1.6059071 +0.7402571</xyz>
+				<total unit="eV">-680.8293304</total>
+				<estat unit="eV">-577.9114743</estat>
+				<eindu unit="eV">-102.9178561</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -5.36541e-01 -6.47300e+02</F-00-01-11>
+				<M-00-11--->+2.15554e-01 +9.54432e+01</M-00-11--->
+				<E-PP-PU-UU>-4.85224e+02 -7.62671e+01 +1.28141e-17</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.70255e+02 = -1.32168e+02 -3.58407e+01 -2.24638e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+5.28898e+00 = +8.35348e+00 -3.41707e+00 +3.52571e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.58732e+02 = +1.42331e+02 +1.59516e+01 +4.49853e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.22418e+02 = +1.11204e+02 +1.04620e+01 +7.51658e-01</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1621</FGC>
+				<FGN>1621</FGN>
+				<MGN>62257</MGN>
+				<BGN>6440</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1620</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">4.43</t_total>
+				<t_wload unit="min">0.00 2.36 0.36 1.71</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>53</id>
+		<tag>18:edot_noh:e</tag>
+		<input>
+				18:edot_noh:MP_FILES/edot_noh_e.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:36:57</time>
+		<output>
+			<summary>
+				<type>bipolaron-like</type>
+				<xyz unit="nm">+0.1252214 +1.6059071 +0.7402571</xyz>
+				<total unit="eV">-680.1840691</total>
+				<estat unit="eV">-575.6718861</estat>
+				<eindu unit="eV">-104.5121830</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -1.41976e-01 -6.47382e+02</F-00-01-11>
+				<M-00-11--->+6.86278e-01 +9.63477e+01</M-00-11--->
+				<E-PP-PU-UU>-4.81949e+02 -7.78308e+01 +2.10642e-18</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.70275e+02 = -1.32168e+02 -3.58571e+01 -2.25025e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+5.43174e+00 = +8.60447e+00 -3.52708e+00 +3.54349e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.59009e+02 = +1.42583e+02 +1.59759e+01 +4.50752e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.23860e+02 = +1.12742e+02 +1.03679e+01 +7.50280e-01</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1621</FGC>
+				<FGN>1621</FGN>
+				<MGN>62257</MGN>
+				<BGN>6440</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1620</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">4.26</t_total>
+				<t_wload unit="min">0.00 2.19 0.37 1.70</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>54</id>
+		<tag>18:edot_noh:h</tag>
+		<input>
+				18:edot_noh:MP_FILES/edot_noh_h.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:37:31</time>
+		<output>
+			<summary>
+				<type>neutral</type>
+				<xyz unit="nm">+0.1252214 +1.6059071 +0.7402571</xyz>
+				<total unit="eV">-683.3922408</total>
+				<estat unit="eV">-579.7458856</estat>
+				<eindu unit="eV">-103.6463552</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -5.13674e+00 -6.47139e+02</F-00-01-11>
+				<M-00-11--->+7.87057e-01 +9.57283e+01</M-00-11--->
+				<E-PP-PU-UU>-4.88095e+02 -7.70144e+01 +1.19427e-17</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.70234e+02 = -1.32168e+02 -3.58236e+01 -2.24237e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+5.14299e+00 = +8.11492e+00 -3.32704e+00 +3.55103e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.58344e+02 = +1.42109e+02 +1.57948e+01 +4.40714e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.20885e+02 = +1.09707e+02 +1.04289e+01 +7.48821e-01</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1621</FGC>
+				<FGN>1621</FGN>
+				<MGN>62257</MGN>
+				<BGN>6440</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1620</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">4.82</t_total>
+				<t_wload unit="min">0.00 2.68 0.37 1.77</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>55</id>
+		<tag>19:edot_noh:n</tag>
+		<input>
+				19:edot_noh:MP_FILES/edot_noh_n.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:37:43</time>
+		<output>
+			<summary>
+				<type>electron-like</type>
+				<xyz unit="nm">+0.3137857 +1.1744071 +0.7433357</xyz>
+				<total unit="eV">-670.8567402</total>
+				<estat unit="eV">-569.4294966</estat>
+				<eindu unit="eV">-101.4272436</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -3.79689e-01 -6.37149e+02</F-00-01-11>
+				<M-00-11--->+2.43171e-01 +9.51840e+01</M-00-11--->
+				<E-PP-PU-UU>-4.74788e+02 -7.63975e+01 +2.35011e-17</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.68049e+02 = -1.31482e+02 -3.43808e+01 -2.18665e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+5.10282e+00 = +8.40972e+00 -3.71365e+00 +4.06748e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.63557e+02 = +1.47825e+02 +1.53395e+01 +3.92996e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.29366e+02 = +1.19394e+02 +9.26897e+00 +7.02238e-01</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1611</FGC>
+				<FGN>1611</FGN>
+				<MGN>62374</MGN>
+				<BGN>6450</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1610</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">4.99</t_total>
+				<t_wload unit="min">0.00 2.81 0.37 1.81</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>56</id>
+		<tag>19:edot_noh:e</tag>
+		<input>
+				19:edot_noh:MP_FILES/edot_noh_e.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:38:24</time>
+		<output>
+			<summary>
+				<type>bipolaron-like</type>
+				<xyz unit="nm">+0.3137857 +1.1744071 +0.7433357</xyz>
+				<total unit="eV">-670.1638204</total>
+				<estat unit="eV">-567.0985832</estat>
+				<eindu unit="eV">-103.0652372</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -5.44516e-01 -6.37098e+02</F-00-01-11>
+				<M-00-11--->+8.07324e-01 +9.60518e+01</M-00-11--->
+				<E-PP-PU-UU>-4.71829e+02 -7.80101e+01 -2.18966e-17</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.68087e+02 = -1.31482e+02 -3.44141e+01 -2.19052e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+5.27826e+00 = +8.70881e+00 -3.84212e+00 +4.11576e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.63935e+02 = +1.48093e+02 +1.54418e+01 +3.99605e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.30507e+02 = +1.20589e+02 +9.20851e+00 +7.09082e-01</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1611</FGC>
+				<FGN>1611</FGN>
+				<MGN>62374</MGN>
+				<BGN>6450</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1610</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">5.55</t_total>
+				<t_wload unit="min">0.00 3.04 0.37 2.15</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>57</id>
+		<tag>19:edot_noh:h</tag>
+		<input>
+				19:edot_noh:MP_FILES/edot_noh_h.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:37:29</time>
+		<output>
+			<summary>
+				<type>neutral</type>
+				<xyz unit="nm">+0.3137857 +1.1744071 +0.7433357</xyz>
+				<total unit="eV">-673.6441752</total>
+				<estat unit="eV">-571.3160361</estat>
+				<eindu unit="eV">-102.3281391</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -4.88301e+00 -6.37076e+02</F-00-01-11>
+				<M-00-11--->+8.48871e-01 +9.56104e+01</M-00-11--->
+				<E-PP-PU-UU>-4.77305e+02 -7.73147e+01 +1.36228e-17</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.68010e+02 = -1.31482e+02 -3.43454e+01 -2.18262e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+4.91519e+00 = +8.12053e+00 -3.61948e+00 +4.14141e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.63064e+02 = +1.47557e+02 +1.51273e+01 +3.79765e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.28114e+02 = +1.18207e+02 +9.20563e+00 +7.01808e-01</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1611</FGC>
+				<FGN>1611</FGN>
+				<MGN>62374</MGN>
+				<BGN>6450</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1610</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">4.55</t_total>
+				<t_wload unit="min">0.00 2.40 0.38 1.77</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>58</id>
+		<tag>20:edot_noh:n</tag>
+		<input>
+				20:edot_noh:MP_FILES/edot_noh_n.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:37:31</time>
+		<output>
+			<summary>
+				<type>neutral</type>
+				<xyz unit="nm">-0.0190357 +0.8633286 +0.6426714</xyz>
+				<total unit="eV">-684.2723725</total>
+				<estat unit="eV">-580.3734799</estat>
+				<eindu unit="eV">-103.8988926</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -4.12576e-01 -6.54864e+02</F-00-01-11>
+				<M-00-11--->+2.81159e-01 +9.54299e+01</M-00-11--->
+				<E-PP-PU-UU>-4.90655e+02 -7.74056e+01 -4.28302e-17</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.68017e+02 = -1.30990e+02 -3.47525e+01 -2.27499e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+6.50037e+00 = +1.11062e+01 -5.05392e+00 +4.48134e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.55376e+02 = +1.40047e+02 +1.49277e+01 +4.00681e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.18566e+02 = +1.09882e+02 +7.90680e+00 +7.76800e-01</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1601</FGC>
+				<FGN>1601</FGN>
+				<MGN>62109</MGN>
+				<BGN>6459</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1600</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">4.54</t_total>
+				<t_wload unit="min">0.00 2.44 0.37 1.73</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>59</id>
+		<tag>20:edot_noh:e</tag>
+		<input>
+				20:edot_noh:MP_FILES/edot_noh_e.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:37:21</time>
+		<output>
+			<summary>
+				<type>electron-like</type>
+				<xyz unit="nm">-0.0190357 +0.8633286 +0.6426714</xyz>
+				<total unit="eV">-683.6984569</total>
+				<estat unit="eV">-577.8563299</estat>
+				<eindu unit="eV">-105.8421270</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -9.61268e-01 -6.54803e+02</F-00-01-11>
+				<M-00-11--->+9.38218e-01 +9.64169e+01</M-00-11--->
+				<E-PP-PU-UU>-4.87627e+02 -7.92599e+01 -1.48547e-17</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.68053e+02 = -1.30990e+02 -3.47823e+01 -2.28146e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+6.68062e+00 = +1.14004e+01 -5.15897e+00 +4.39157e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.55649e+02 = +1.40214e+02 +1.50278e+01 +4.07270e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.19565e+02 = +1.10854e+02 +7.94113e+00 +7.70077e-01</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1601</FGC>
+				<FGN>1601</FGN>
+				<MGN>62109</MGN>
+				<BGN>6459</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1600</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">4.32</t_total>
+				<t_wload unit="min">0.00 2.13 0.37 1.82</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>60</id>
+		<tag>20:edot_noh:h</tag>
+		<input>
+				20:edot_noh:MP_FILES/edot_noh_h.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:37:29</time>
+		<output>
+			<summary>
+				<type>hole-like</type>
+				<xyz unit="nm">-0.0190357 +0.8633286 +0.6426714</xyz>
+				<total unit="eV">-687.1422450</total>
+				<estat unit="eV">-582.2753549</estat>
+				<eindu unit="eV">-104.8668901</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -5.08047e+00 -6.54752e+02</F-00-01-11>
+				<M-00-11--->+9.61928e-01 +9.58861e+01</M-00-11--->
+				<E-PP-PU-UU>-4.93060e+02 -7.84490e+01 -3.91515e-18</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.67978e+02 = -1.30990e+02 -3.47202e+01 -2.26820e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+6.30671e+00 = +1.08346e+01 -5.00235e+00 +4.74496e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.54955e+02 = +1.39887e+02 +1.46821e+01 +3.85510e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.17442e+02 = +1.08948e+02 +7.70311e+00 +7.90993e-01</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1601</FGC>
+				<FGN>1601</FGN>
+				<MGN>62109</MGN>
+				<BGN>6459</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1600</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">4.20</t_total>
+				<t_wload unit="min">0.00 2.14 0.37 1.69</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>61</id>
+		<tag>21:edot_noh:n</tag>
+		<input>
+				21:edot_noh:MP_FILES/edot_noh_n.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:40:27</time>
+		<output>
+			<summary>
+				<type>bipolaron-like</type>
+				<xyz unit="nm">+0.1701214 +0.4281714 +0.6539143</xyz>
+				<total unit="eV">-673.8055875</total>
+				<estat unit="eV">-569.5783317</estat>
+				<eindu unit="eV">-104.2272558</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -9.29654e-01 -6.21550e+02</F-00-01-11>
+				<M-00-11--->+3.09174e-01 +9.39901e+01</M-00-11--->
+				<E-PP-PU-UU>-4.62605e+02 -7.51984e+01 -4.01616e-17</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.77718e+02 = -1.37792e+02 -3.74061e+01 -2.52085e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+6.23682e+00 = +1.09565e+01 -5.16372e+00 +4.43995e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.65391e+02 = +1.49244e+02 +1.57277e+01 +4.19940e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.39535e+02 = +1.29382e+02 +9.30869e+00 +8.43692e-01</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1578</FGC>
+				<FGN>1578</FGN>
+				<MGN>62301</MGN>
+				<BGN>6485</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1577</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">4.56</t_total>
+				<t_wload unit="min">0.00 2.49 0.38 1.69</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>62</id>
+		<tag>21:edot_noh:e</tag>
+		<input>
+				21:edot_noh:MP_FILES/edot_noh_e.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:40:19</time>
+		<output>
+			<summary>
+				<type>bipolaron-like</type>
+				<xyz unit="nm">+0.1701214 +0.4281714 +0.6539143</xyz>
+				<total unit="eV">-672.7912228</total>
+				<estat unit="eV">-566.5552701</estat>
+				<eindu unit="eV">-106.2359528</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 +7.78607e-02 -6.21508e+02</F-00-01-11>
+				<M-00-11--->+9.54077e-01 +9.49818e+01</M-00-11--->
+				<E-PP-PU-UU>-4.57965e+02 -7.71282e+01 +2.31247e-17</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.77782e+02 = -1.37792e+02 -3.74613e+01 -2.52872e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+6.40174e+00 = +1.12416e+01 -5.27981e+00 +4.39924e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.65742e+02 = +1.49429e+02 +1.58823e+01 +4.30458e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.41659e+02 = +1.31470e+02 +9.34522e+00 +8.44666e-01</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1578</FGC>
+				<FGN>1578</FGN>
+				<MGN>62301</MGN>
+				<BGN>6485</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1577</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">4.31</t_total>
+				<t_wload unit="min">0.00 2.09 0.37 1.86</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>63</id>
+		<tag>21:edot_noh:h</tag>
+		<input>
+				21:edot_noh:MP_FILES/edot_noh_h.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:40:19</time>
+		<output>
+			<summary>
+				<type>electron-like</type>
+				<xyz unit="nm">+0.1701214 +0.4281714 +0.6539143</xyz>
+				<total unit="eV">-677.3145872</total>
+				<estat unit="eV">-572.0968542</estat>
+				<eindu unit="eV">-105.2177330</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -7.49806e+00 -6.21335e+02</F-00-01-11>
+				<M-00-11--->+1.07953e+00 +9.44113e+01</M-00-11--->
+				<E-PP-PU-UU>-4.66750e+02 -7.62530e+01 -4.39091e-19</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.77651e+02 = -1.37792e+02 -3.73468e+01 -2.51249e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+6.04732e+00 = +1.06839e+01 -5.10863e+00 +4.72064e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.64850e+02 = +1.49053e+02 +1.53978e+01 +3.98577e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.37219e+02 = +1.27292e+02 +9.07121e+00 +8.54967e-01</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1578</FGC>
+				<FGN>1578</FGN>
+				<MGN>62301</MGN>
+				<BGN>6485</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1577</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">3.93</t_total>
+				<t_wload unit="min">0.00 2.00 0.38 1.55</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>64</id>
+		<tag>22:edot_noh:n</tag>
+		<input>
+				22:edot_noh:MP_FILES/edot_noh_n.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:40:28</time>
+		<output>
+			<summary>
+				<type>bipolaron-like</type>
+				<xyz unit="nm">-0.1585429 +0.1106714 +0.5765571</xyz>
+				<total unit="eV">-669.2061259</total>
+				<estat unit="eV">-565.0922976</estat>
+				<eindu unit="eV">-104.1138283</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -1.13713e+00 -6.24228e+02</F-00-01-11>
+				<M-00-11--->+3.10207e-01 +9.42939e+01</M-00-11--->
+				<E-PP-PU-UU>-4.64130e+02 -7.58592e+01 +9.20254e-18</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.76518e+02 = -1.37719e+02 -3.63124e+01 -2.48692e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+7.92189e+00 = +1.28556e+01 -5.40491e+00 +4.71213e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.62917e+02 = +1.47344e+02 +1.51871e+01 +3.86271e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.32766e+02 = +1.23443e+02 +8.46117e+00 +8.61460e-01</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1585</FGC>
+				<FGN>1585</FGN>
+				<MGN>62288</MGN>
+				<BGN>6475</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1584</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">3.93</t_total>
+				<t_wload unit="min">0.00 1.84 0.38 1.72</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>65</id>
+		<tag>22:edot_noh:e</tag>
+		<input>
+				22:edot_noh:MP_FILES/edot_noh_e.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:40:33</time>
+		<output>
+			<summary>
+				<type>bipolaron-like</type>
+				<xyz unit="nm">-0.1585429 +0.1106714 +0.5765571</xyz>
+				<total unit="eV">-668.3609860</total>
+				<estat unit="eV">-562.3409116</estat>
+				<eindu unit="eV">-106.0200744</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -7.50061e-01 -6.24067e+02</F-00-01-11>
+				<M-00-11--->+9.67617e-01 +9.52343e+01</M-00-11--->
+				<E-PP-PU-UU>-4.60155e+02 -7.76713e+01 -9.96798e-19</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.76576e+02 = -1.37719e+02 -3.63626e+01 -2.49446e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+8.05144e+00 = +1.29966e+01 -5.37822e+00 +4.33105e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.63279e+02 = +1.47551e+02 +1.53331e+01 +3.95214e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.34501e+02 = +1.25015e+02 +8.65902e+00 +8.27185e-01</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1585</FGC>
+				<FGN>1585</FGN>
+				<MGN>62288</MGN>
+				<BGN>6475</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1584</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">4.02</t_total>
+				<t_wload unit="min">0.00 1.91 0.38 1.73</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>66</id>
+		<tag>22:edot_noh:h</tag>
+		<input>
+				22:edot_noh:MP_FILES/edot_noh_h.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:40:43</time>
+		<output>
+			<summary>
+				<type>electron-like</type>
+				<xyz unit="nm">-0.1585429 +0.1106714 +0.5765571</xyz>
+				<total unit="eV">-672.6169283</total>
+				<estat unit="eV">-567.3025479</estat>
+				<eindu unit="eV">-105.3143804</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -7.27908e+00 -6.24112e+02</F-00-01-11>
+				<M-00-11--->+1.06840e+00 +9.48710e+01</M-00-11--->
+				<E-PP-PU-UU>-4.67564e+02 -7.71428e+01 +3.96216e-17</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.76456e+02 = -1.37719e+02 -3.62582e+01 -2.47907e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+7.78799e+00 = +1.27436e+01 -5.49400e+00 +5.38398e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.62378e+02 = +1.47135e+02 +1.48759e+01 +3.67375e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.30875e+02 = +1.21899e+02 +8.06285e+00 +9.13432e-01</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1585</FGC>
+				<FGN>1585</FGN>
+				<MGN>62288</MGN>
+				<BGN>6475</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1584</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">4.18</t_total>
+				<t_wload unit="min">0.00 2.19 0.38 1.61</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>67</id>
+		<tag>23:edot_noh:n</tag>
+		<input>
+				23:edot_noh:MP_FILES/edot_noh_n.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:40:46</time>
+		<output>
+			<summary>
+				<type>electron-like</type>
+				<xyz unit="nm">+0.0562000 -0.3035357 +0.6148857</xyz>
+				<total unit="eV">-671.8241150</total>
+				<estat unit="eV">-566.3481454</estat>
+				<eindu unit="eV">-105.4759696</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -7.96275e-01 -6.13528e+02</F-00-01-11>
+				<M-00-11--->+3.45191e-01 +9.43892e+01</M-00-11--->
+				<E-PP-PU-UU>-4.54318e+02 -7.52929e+01 -4.84587e-17</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.81945e+02 = -1.41416e+02 -3.78799e+01 -2.64925e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+7.11084e+00 = +1.24809e+01 -5.81625e+00 +4.46215e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.81401e+02 = +1.63456e+02 +1.74717e+01 +4.73609e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.58801e+02 = +1.46551e+02 +1.12854e+01 +9.65089e-01</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1594</FGC>
+				<FGN>1594</FGN>
+				<MGN>62342</MGN>
+				<BGN>6466</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1593</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">4.17</t_total>
+				<t_wload unit="min">0.00 2.07 0.38 1.72</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>68</id>
+		<tag>23:edot_noh:e</tag>
+		<input>
+				23:edot_noh:MP_FILES/edot_noh_e.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:41:08</time>
+		<output>
+			<summary>
+				<type>bipolaron-like</type>
+				<xyz unit="nm">+0.0562000 -0.3035357 +0.6148857</xyz>
+				<total unit="eV">-671.2208212</total>
+				<estat unit="eV">-564.0198491</estat>
+				<eindu unit="eV">-107.2009721</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -1.02066e+00 -6.13315e+02</F-00-01-11>
+				<M-00-11--->+1.02683e+00 +9.51270e+01</M-00-11--->
+				<E-PP-PU-UU>-4.51232e+02 -7.69582e+01 -3.69100e-17</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.81996e+02 = -1.41416e+02 -3.79250e+01 -2.65461e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+7.14220e+00 = +1.25037e+01 -5.79317e+00 +4.31640e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.81702e+02 = +1.63651e+02 +1.75697e+01 +4.80319e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.59887e+02 = +1.47527e+02 +1.14055e+01 +9.54462e-01</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1594</FGC>
+				<FGN>1594</FGN>
+				<MGN>62342</MGN>
+				<BGN>6466</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1593</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">4.37</t_total>
+				<t_wload unit="min">0.00 2.13 0.38 1.86</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>69</id>
+		<tag>23:edot_noh:h</tag>
+		<input>
+				23:edot_noh:MP_FILES/edot_noh_h.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:41:16</time>
+		<output>
+			<summary>
+				<type>neutral</type>
+				<xyz unit="nm">+0.0562000 -0.3035357 +0.6148857</xyz>
+				<total unit="eV">-674.8744094</total>
+				<estat unit="eV">-568.2392798</estat>
+				<eindu unit="eV">-106.6351295</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -6.06490e+00 -6.13426e+02</F-00-01-11>
+				<M-00-11--->+1.11025e+00 +9.49335e+01</M-00-11--->
+				<E-PP-PU-UU>-4.56982e+02 -7.65057e+01 +1.02735e-17</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.81887e+02 = -1.41416e+02 -3.78271e+01 -2.64316e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+7.07249e+00 = +1.24640e+01 -5.88900e+00 +4.97532e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.80778e+02 = +1.63245e+02 +1.70844e+01 +4.49333e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.57391e+02 = +1.45549e+02 +1.08518e+01 +9.90358e-01</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1594</FGC>
+				<FGN>1594</FGN>
+				<MGN>62342</MGN>
+				<BGN>6466</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1593</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">4.18</t_total>
+				<t_wload unit="min">0.00 2.09 0.38 1.71</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>70</id>
+		<tag>24:edoth:n</tag>
+		<input>
+				24:edoth:MP_FILES/edoth_n.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:41:13</time>
+		<output>
+			<summary>
+				<type>neutral</type>
+				<xyz unit="nm">-0.2550638 -0.6552837 +0.5290780</xyz>
+				<total unit="eV">-662.0533877</total>
+				<estat unit="eV">-558.8295943</estat>
+				<eindu unit="eV">-103.2237934</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -5.89604e-01 -6.12453e+02</F-00-01-11>
+				<M-00-11--->+2.46101e-01 +9.26540e+01</M-00-11--->
+				<E-PP-PU-UU>-4.55696e+02 -7.39716e+01 +2.01790e-17</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.80051e+02 = -1.40482e+02 -3.71489e+01 -2.41962e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+7.69291e+00 = +1.23871e+01 -5.12344e+00 +4.29300e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.74114e+02 = +1.56533e+02 +1.71152e+01 +4.65626e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.43667e+02 = +1.31571e+02 +1.11873e+01 +9.08449e-01</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1593</FGC>
+				<FGN>1593</FGN>
+				<MGN>62310</MGN>
+				<BGN>6467</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1592</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">3.98</t_total>
+				<t_wload unit="min">0.00 2.09 0.37 1.52</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>71</id>
+		<tag>24:edoth:e</tag>
+		<input>
+				24:edoth:MP_FILES/edoth_e.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:41:08</time>
+		<output>
+			<summary>
+				<type>electron-like</type>
+				<xyz unit="nm">-0.2550638 -0.6552837 +0.5290780</xyz>
+				<total unit="eV">-662.0584198</total>
+				<estat unit="eV">-557.9453328</estat>
+				<eindu unit="eV">-104.1130870</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -1.02252e+00 -6.12346e+02</F-00-01-11>
+				<M-00-11--->+5.82444e-01 +9.30515e+01</M-00-11--->
+				<E-PP-PU-UU>-4.54455e+02 -7.47854e+01 +4.02988e-18</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.80071e+02 = -1.40482e+02 -3.71628e+01 -2.42584e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+7.60414e+00 = +1.21748e+01 -4.95804e+00 +3.87345e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.74303e+02 = +1.56656e+02 +1.71771e+01 +4.70340e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.44161e+02 = +1.31838e+02 +1.14541e+01 +8.68308e-01</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1593</FGC>
+				<FGN>1593</FGN>
+				<MGN>62310</MGN>
+				<BGN>6467</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1592</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">3.90</t_total>
+				<t_wload unit="min">0.00 2.03 0.38 1.50</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>72</id>
+		<tag>24:edoth:h</tag>
+		<input>
+				24:edoth:MP_FILES/edoth_h.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:41:14</time>
+		<output>
+			<summary>
+				<type>hole-like</type>
+				<xyz unit="nm">-0.2550638 -0.6552837 +0.5290780</xyz>
+				<total unit="eV">-663.8784847</total>
+				<estat unit="eV">-559.6483252</estat>
+				<eindu unit="eV">-104.2301595</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -3.87632e+00 -6.12497e+02</F-00-01-11>
+				<M-00-11--->+7.38597e-01 +9.33224e+01</M-00-11--->
+				<E-PP-PU-UU>-4.56852e+02 -7.50289e+01 +1.31361e-18</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.80025e+02 = -1.40482e+02 -3.71304e+01 -2.41280e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+7.77171e+00 = +1.26251e+01 -5.35718e+00 +5.03801e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.73613e+02 = +1.56375e+02 +1.67918e+01 +4.45783e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.42926e+02 = +1.31315e+02 +1.06492e+01 +9.61643e-01</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1593</FGC>
+				<FGN>1593</FGN>
+				<MGN>62310</MGN>
+				<BGN>6467</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1592</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">3.99</t_total>
+				<t_wload unit="min">0.00 2.08 0.38 1.53</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>73</id>
+		<tag>25:edoth:n</tag>
+		<input>
+				25:edoth:MP_FILES/edoth_n.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:41:53</time>
+		<output>
+			<summary>
+				<type>neutral</type>
+				<xyz unit="nm">-0.2570851 -1.8135603 +0.1483050</xyz>
+				<total unit="eV">-691.0909943</total>
+				<estat unit="eV">-587.2614531</estat>
+				<eindu unit="eV">-103.8295411</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -6.32732e-01 -6.40487e+02</F-00-01-11>
+				<M-00-11--->+1.76798e-01 +9.47669e+01</M-00-11--->
+				<E-PP-PU-UU>-4.80836e+02 -7.50786e+01 +8.22747e-18</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.75344e+02 = -1.35754e+02 -3.73131e+01 -2.27723e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+8.34450e+00 = +1.12842e+01 -3.34656e+00 +4.06861e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.72792e+02 = +1.54424e+02 +1.78481e+01 +5.19644e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.50707e+02 = +1.36380e+02 +1.34159e+01 +9.11143e-01</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1653</FGC>
+				<FGN>1653</FGN>
+				<MGN>62280</MGN>
+				<BGN>6408</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1652</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">4.54</t_total>
+				<t_wload unit="min">0.00 2.37 0.38 1.79</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>74</id>
+		<tag>25:edoth:e</tag>
+		<input>
+				25:edoth:MP_FILES/edoth_e.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:41:49</time>
+		<output>
+			<summary>
+				<type>electron-like</type>
+				<xyz unit="nm">-0.2570851 -1.8135603 +0.1483050</xyz>
+				<total unit="eV">-691.9635186</total>
+				<estat unit="eV">-586.8965666</estat>
+				<eindu unit="eV">-105.0669520</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -2.54689e+00 -6.40623e+02</F-00-01-11>
+				<M-00-11--->+6.25873e-01 +9.55832e+01</M-00-11--->
+				<E-PP-PU-UU>-4.80360e+02 -7.63133e+01 +4.11590e-17</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.75347e+02 = -1.35754e+02 -3.73120e+01 -2.28060e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+8.06199e+00 = +1.10251e+01 -3.37055e+00 +4.07470e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.72885e+02 = +1.54424e+02 +1.79350e+01 +5.25814e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.50604e+02 = +1.36232e+02 +1.34543e+01 +9.17070e-01</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1653</FGC>
+				<FGN>1653</FGN>
+				<MGN>62280</MGN>
+				<BGN>6408</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1652</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">4.32</t_total>
+				<t_wload unit="min">0.00 2.13 0.37 1.82</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>75</id>
+		<tag>25:edoth:h</tag>
+		<input>
+				25:edoth:MP_FILES/edoth_h.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:42:11</time>
+		<output>
+			<summary>
+				<type>hole-like</type>
+				<xyz unit="nm">-0.2570851 -1.8135603 +0.1483050</xyz>
+				<total unit="eV">-692.0570761</total>
+				<estat unit="eV">-587.5342658</estat>
+				<eindu unit="eV">-104.5228103</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -2.52074e+00 -6.40311e+02</F-00-01-11>
+				<M-00-11--->+5.44911e-01 +9.51388e+01</M-00-11--->
+				<E-PP-PU-UU>-4.81191e+02 -7.57480e+01 -3.15447e-17</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.75342e+02 = -1.35754e+02 -3.73139e+01 -2.27363e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+8.63301e+00 = +1.15636e+01 -3.33949e+00 +4.08923e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.72544e+02 = +1.54388e+02 +1.76483e+01 +5.07731e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.50744e+02 = +1.36541e+02 +1.33016e+01 +9.01746e-01</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1653</FGC>
+				<FGN>1653</FGN>
+				<MGN>62280</MGN>
+				<BGN>6408</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1652</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">4.56</t_total>
+				<t_wload unit="min">0.00 2.34 0.37 1.85</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>76</id>
+		<tag>26:edot_noh:n</tag>
+		<input>
+				26:edot_noh:MP_FILES/edot_noh_n.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:41:58</time>
+		<output>
+			<summary>
+				<type>hole-like</type>
+				<xyz unit="nm">-0.0154143 -1.4350929 +0.2895571</xyz>
+				<total unit="eV">-682.8388152</total>
+				<estat unit="eV">-578.9065115</estat>
+				<eindu unit="eV">-103.9323038</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 +4.58099e-02 -6.28914e+02</F-00-01-11>
+				<M-00-11--->+1.94612e-01 +9.45814e+01</M-00-11--->
+				<E-PP-PU-UU>-4.68858e+02 -7.51169e+01 +2.26644e-17</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.76196e+02 = -1.36131e+02 -3.75617e+01 -2.50359e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+7.75054e+00 = +1.13951e+01 -4.07217e+00 +4.27653e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.64619e+02 = +1.46652e+02 +1.74443e+01 +5.22176e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.44920e+02 = +1.31965e+02 +1.20270e+01 +9.28263e-01</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1616</FGC>
+				<FGN>1616</FGN>
+				<MGN>62144</MGN>
+				<BGN>6444</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1615</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">4.33</t_total>
+				<t_wload unit="min">0.00 2.16 0.38 1.79</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>77</id>
+		<tag>26:edot_noh:e</tag>
+		<input>
+				26:edot_noh:MP_FILES/edot_noh_e.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:41:37</time>
+		<output>
+			<summary>
+				<type>neutral</type>
+				<xyz unit="nm">-0.0154143 -1.4350929 +0.2895571</xyz>
+				<total unit="eV">-682.8465111</total>
+				<estat unit="eV">-577.0404408</estat>
+				<eindu unit="eV">-105.8060703</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -1.67461e+00 -6.29029e+02</F-00-01-11>
+				<M-00-11--->+7.45495e-01 +9.56959e+01</M-00-11--->
+				<E-PP-PU-UU>-4.67163e+02 -7.69562e+01 -9.76734e-18</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.76210e+02 = -1.36131e+02 -3.75731e+01 -2.50638e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+7.56996e+00 = +1.13448e+01 -4.23107e+00 +4.56223e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.64984e+02 = +1.46878e+02 +1.75724e+01 +5.32750e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.44927e+02 = +1.31970e+02 +1.19902e+01 +9.66569e-01</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1616</FGC>
+				<FGN>1616</FGN>
+				<MGN>62144</MGN>
+				<BGN>6444</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1615</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">3.95</t_total>
+				<t_wload unit="min">0.00 1.97 0.38 1.60</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>78</id>
+		<tag>26:edot_noh:h</tag>
+		<input>
+				26:edot_noh:MP_FILES/edot_noh_h.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:42:42</time>
+		<output>
+			<summary>
+				<type>bipolaron-like</type>
+				<xyz unit="nm">-0.0154143 -1.4350929 +0.2895571</xyz>
+				<total unit="eV">-684.8822912</total>
+				<estat unit="eV">-580.2714424</estat>
+				<eindu unit="eV">-104.6108488</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -2.88529e+00 -6.28614e+02</F-00-01-11>
+				<M-00-11--->+7.14797e-01 +9.48227e+01</M-00-11--->
+				<E-PP-PU-UU>-4.70053e+02 -7.58246e+01 +8.14910e-18</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.76181e+02 = -1.36131e+02 -3.75496e+01 -2.50064e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+7.92685e+00 = +1.14315e+01 -3.91479e+00 +4.10168e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.64198e+02 = +1.46474e+02 +1.72198e+01 +5.05002e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.44865e+02 = +1.31993e+02 +1.19780e+01 +8.93369e-01</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1616</FGC>
+				<FGN>1616</FGN>
+				<MGN>62144</MGN>
+				<BGN>6444</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1615</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">5.04</t_total>
+				<t_wload unit="min">0.00 2.61 0.37 2.06</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>79</id>
+		<tag>27:edot_noh:n</tag>
+		<input>
+				27:edot_noh:MP_FILES/edot_noh_n.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:42:25</time>
+		<output>
+			<summary>
+				<type>electron-like</type>
+				<xyz unit="nm">-0.2440500 -1.0442429 +0.1789357</xyz>
+				<total unit="eV">-684.6538588</total>
+				<estat unit="eV">-578.8703203</estat>
+				<eindu unit="eV">-105.7835385</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -5.67407e-01 -6.15313e+02</F-00-01-11>
+				<M-00-11--->+2.15710e-01 +9.41526e+01</M-00-11--->
+				<E-PP-PU-UU>-4.57496e+02 -7.44258e+01 -8.74614e-18</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.90601e+02 = -1.47839e+02 -4.00618e+01 -2.69993e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+9.18716e+00 = +1.32164e+01 -4.47450e+00 +4.45245e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.72779e+02 = +1.54503e+02 +1.77635e+01 +5.12475e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.54506e+02 = +1.41254e+02 +1.22967e+01 +9.55149e-01</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1618</FGC>
+				<FGN>1618</FGN>
+				<MGN>62285</MGN>
+				<BGN>6442</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1617</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">4.54</t_total>
+				<t_wload unit="min">0.00 2.42 0.38 1.75</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>80</id>
+		<tag>27:edot_noh:e</tag>
+		<input>
+				27:edot_noh:MP_FILES/edot_noh_e.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:42:53</time>
+		<output>
+			<summary>
+				<type>bipolaron-like</type>
+				<xyz unit="nm">-0.2440500 -1.0442429 +0.1789357</xyz>
+				<total unit="eV">-685.1206179</total>
+				<estat unit="eV">-577.2733455</estat>
+				<eindu unit="eV">-107.8472724</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -2.07474e+00 -6.15358e+02</F-00-01-11>
+				<M-00-11--->+8.71539e-01 +9.53892e+01</M-00-11--->
+				<E-PP-PU-UU>-4.55190e+02 -7.63869e+01 -4.28846e-18</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.90625e+02 = -1.47839e+02 -4.00805e+01 -2.70514e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+9.00598e+00 = +1.30716e+01 -4.50928e+00 +4.43672e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.72782e+02 = +1.54476e+02 +1.77891e+01 +5.17508e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.55112e+02 = +1.41792e+02 +1.23617e+01 +9.58348e-01</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1618</FGC>
+				<FGN>1618</FGN>
+				<MGN>62285</MGN>
+				<BGN>6442</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1617</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">4.33</t_total>
+				<t_wload unit="min">0.00 2.11 0.38 1.84</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>81</id>
+		<tag>27:edot_noh:h</tag>
+		<input>
+				27:edot_noh:MP_FILES/edot_noh_h.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:44:30</time>
+		<output>
+			<summary>
+				<type>neutral</type>
+				<xyz unit="nm">-0.2440500 -1.0442429 +0.1789357</xyz>
+				<total unit="eV">-686.4478041</total>
+				<estat unit="eV">-579.9598585</estat>
+				<eindu unit="eV">-106.4879456</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -4.15184e+00 -6.15083e+02</F-00-01-11>
+				<M-00-11--->+7.34011e-01 +9.44221e+01</M-00-11--->
+				<E-PP-PU-UU>-4.59277e+02 -7.52243e+01 -9.50998e-18</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.90574e+02 = -1.47839e+02 -4.00399e+01 -2.69449e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+9.39066e+00 = +1.33878e+01 -4.45208e+00 +4.54933e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.72598e+02 = +1.54482e+02 +1.76163e+01 +4.99909e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.53784e+02 = +1.40713e+02 +1.21187e+01 +9.51696e-01</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1618</FGC>
+				<FGN>1618</FGN>
+				<MGN>62285</MGN>
+				<BGN>6442</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1617</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">4.03</t_total>
+				<t_wload unit="min">0.00 2.27 0.37 1.39</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>82</id>
+		<tag>28:edot_noh:n</tag>
+		<input>
+				28:edot_noh:MP_FILES/edot_noh_n.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:44:09</time>
+		<output>
+			<summary>
+				<type>electron-like</type>
+				<xyz unit="nm">+0.0394857 -0.6870714 +0.2746214</xyz>
+				<total unit="eV">-689.6100824</total>
+				<estat unit="eV">-583.4872191</estat>
+				<eindu unit="eV">-106.1228633</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -9.50381e-01 -6.15184e+02</F-00-01-11>
+				<M-00-11--->+2.99735e-01 +9.41791e+01</M-00-11--->
+				<E-PP-PU-UU>-4.57295e+02 -7.46857e+01 -2.76176e-17</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.86655e+02 = -1.44771e+02 -3.92673e+01 -2.61655e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+8.13505e+00 = +1.29492e+01 -5.26126e+00 +4.47069e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.69560e+02 = +1.51041e+02 +1.79705e+01 +5.48553e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.58994e+02 = +1.45411e+02 +1.25637e+01 +1.01932e+00</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1611</FGC>
+				<FGN>1611</FGN>
+				<MGN>62343</MGN>
+				<BGN>6450</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1610</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">3.69</t_total>
+				<t_wload unit="min">0.00 1.76 0.38 1.55</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>83</id>
+		<tag>28:edot_noh:e</tag>
+		<input>
+				28:edot_noh:MP_FILES/edot_noh_e.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:44:44</time>
+		<output>
+			<summary>
+				<type>bipolaron-like</type>
+				<xyz unit="nm">+0.0394857 -0.6870714 +0.2746214</xyz>
+				<total unit="eV">-689.5656729</total>
+				<estat unit="eV">-581.3720825</estat>
+				<eindu unit="eV">-108.1935904</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -1.24190e+00 -6.15316e+02</F-00-01-11>
+				<M-00-11--->+9.46148e-01 +9.53124e+01</M-00-11--->
+				<E-PP-PU-UU>-4.53924e+02 -7.66723e+01 -2.61747e-18</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.86689e+02 = -1.44771e+02 -3.92936e+01 -2.62401e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+8.05079e+00 = +1.30417e+01 -5.48867e+00 +4.97791e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.69755e+02 = +1.51228e+02 +1.79756e+01 +5.51267e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.60383e+02 = +1.46947e+02 +1.23686e+01 +1.06711e+00</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1611</FGC>
+				<FGN>1611</FGN>
+				<MGN>62343</MGN>
+				<BGN>6450</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1610</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">4.13</t_total>
+				<t_wload unit="min">0.00 2.06 0.38 1.69</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>84</id>
+		<tag>28:edot_noh:h</tag>
+		<input>
+				28:edot_noh:MP_FILES/edot_noh_h.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:44:18</time>
+		<output>
+			<summary>
+				<type>neutral</type>
+				<xyz unit="nm">+0.0394857 -0.6870714 +0.2746214</xyz>
+				<total unit="eV">-692.0096158</total>
+				<estat unit="eV">-585.1463140</estat>
+				<eindu unit="eV">-106.8633018</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -5.96716e+00 -6.14798e+02</F-00-01-11>
+				<M-00-11--->+9.65119e-01 +9.44228e+01</M-00-11--->
+				<E-PP-PU-UU>-4.60223e+02 -7.55091e+01 -7.30599e-18</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.86619e+02 = -1.44771e+02 -3.92385e+01 -2.60870e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+8.18778e+00 = +1.28499e+01 -5.09257e+00 +4.30431e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.69240e+02 = +1.50899e+02 +1.78052e+01 +5.35923e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.57442e+02 = +1.43901e+02 +1.25492e+01 +9.91634e-01</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1611</FGC>
+				<FGN>1611</FGN>
+				<MGN>62343</MGN>
+				<BGN>6450</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1610</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">3.69</t_total>
+				<t_wload unit="min">0.00 1.86 0.38 1.46</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>85</id>
+		<tag>29:edot_noh:n</tag>
+		<input>
+				29:edot_noh:MP_FILES/edot_noh_n.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:44:44</time>
+		<output>
+			<summary>
+				<type>neutral</type>
+				<xyz unit="nm">-0.1854000 -0.2706929 +0.2593357</xyz>
+				<total unit="eV">-675.5589935</total>
+				<estat unit="eV">-570.7001222</estat>
+				<eindu unit="eV">-104.8588712</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -3.73479e-01 -6.11201e+02</F-00-01-11>
+				<M-00-11--->+2.42750e-01 +9.45618e+01</M-00-11--->
+				<E-PP-PU-UU>-4.51921e+02 -7.50403e+01 +8.30675e-18</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.83827e+02 = -1.42866e+02 -3.83987e+01 -2.56204e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+9.46725e+00 = +1.37894e+01 -4.77295e+00 +4.50768e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.67944e+02 = +1.49842e+02 +1.75840e+01 +5.17944e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.52372e+02 = +1.39544e+02 +1.18505e+01 +9.78394e-01</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1591</FGC>
+				<FGN>1591</FGN>
+				<MGN>62362</MGN>
+				<BGN>6469</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1590</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">4.04</t_total>
+				<t_wload unit="min">0.00 2.09 0.35 1.60</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>86</id>
+		<tag>29:edot_noh:e</tag>
+		<input>
+				29:edot_noh:MP_FILES/edot_noh_e.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:44:56</time>
+		<output>
+			<summary>
+				<type>electron-like</type>
+				<xyz unit="nm">-0.1854000 -0.2706929 +0.2593357</xyz>
+				<total unit="eV">-675.4723375</total>
+				<estat unit="eV">-568.0346379</estat>
+				<eindu unit="eV">-107.4376996</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -2.11746e+00 -6.11268e+02</F-00-01-11>
+				<M-00-11--->+1.06381e+00 +9.60128e+01</M-00-11--->
+				<E-PP-PU-UU>-4.49017e+02 -7.74835e+01 -1.92301e-17</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.83851e+02 = -1.42866e+02 -3.84143e+01 -2.56973e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+9.45118e+00 = +1.38439e+01 -4.84408e+00 +4.51382e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.68077e+02 = +1.49984e+02 +1.75733e+01 +5.18909e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.52841e+02 = +1.39980e+02 +1.18859e+01 +9.75245e-01</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1591</FGC>
+				<FGN>1591</FGN>
+				<MGN>62362</MGN>
+				<BGN>6469</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1590</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">4.07</t_total>
+				<t_wload unit="min">0.00 2.12 0.36 1.60</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>87</id>
+		<tag>29:edot_noh:h</tag>
+		<input>
+				29:edot_noh:MP_FILES/edot_noh_h.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:44:57</time>
+		<output>
+			<summary>
+				<type>hole-like</type>
+				<xyz unit="nm">-0.1854000 -0.2706929 +0.2593357</xyz>
+				<total unit="eV">-678.2888586</total>
+				<estat unit="eV">-572.6727010</estat>
+				<eindu unit="eV">-105.6161576</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -4.66521e+00 -6.10899e+02</F-00-01-11>
+				<M-00-11--->+8.97383e-01 +9.47939e+01</M-00-11--->
+				<E-PP-PU-UU>-4.54124e+02 -7.59368e+01 +2.18422e-17</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.83801e+02 = -1.42866e+02 -3.83803e+01 -2.55403e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+9.48322e+00 = +1.37672e+01 -4.76126e+00 +4.77298e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.67661e+02 = +1.49664e+02 +1.74875e+01 +5.10382e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.51760e+02 = +1.39113e+02 +1.16461e+01 +1.00016e+00</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1591</FGC>
+				<FGN>1591</FGN>
+				<MGN>62362</MGN>
+				<BGN>6469</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1590</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">4.03</t_total>
+				<t_wload unit="min">0.00 2.35 0.36 1.33</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>88</id>
+		<tag>30:edot_noh:n</tag>
+		<input>
+				30:edot_noh:MP_FILES/edot_noh_n.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:45:20</time>
+		<output>
+			<summary>
+				<type>electron-like</type>
+				<xyz unit="nm">+0.1458571 +0.0414857 +0.3394143</xyz>
+				<total unit="eV">-667.6005948</total>
+				<estat unit="eV">-563.2421915</estat>
+				<eindu unit="eV">-104.3584033</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -9.43649e-01 -6.05293e+02</F-00-01-11>
+				<M-00-11--->+3.79048e-01 +9.30938e+01</M-00-11--->
+				<E-PP-PU-UU>-4.48412e+02 -7.42835e+01 -3.68989e-18</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.83671e+02 = -1.42645e+02 -3.83346e+01 -2.69151e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+8.33036e+00 = +1.31989e+01 -5.33764e+00 +4.69141e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.73086e+02 = +1.55138e+02 +1.74467e+01 +5.01842e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.52582e+02 = +1.40522e+02 +1.10572e+01 +1.00377e+00</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1572</FGC>
+				<FGN>1572</FGN>
+				<MGN>62422</MGN>
+				<BGN>6490</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1571</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">4.05</t_total>
+				<t_wload unit="min">0.00 2.14 0.35 1.56</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>89</id>
+		<tag>30:edot_noh:e</tag>
+		<input>
+				30:edot_noh:MP_FILES/edot_noh_e.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:44:53</time>
+		<output>
+			<summary>
+				<type>bipolaron-like</type>
+				<xyz unit="nm">+0.1458571 +0.0414857 +0.3394143</xyz>
+				<total unit="eV">-667.5662817</total>
+				<estat unit="eV">-560.4618127</estat>
+				<eindu unit="eV">-107.1044690</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -2.36424e+00 -6.05361e+02</F-00-01-11>
+				<M-00-11--->+1.34684e+00 +9.45473e+01</M-00-11--->
+				<E-PP-PU-UU>-4.44816e+02 -7.69335e+01 +3.01075e-17</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.83720e+02 = -1.42645e+02 -3.83776e+01 -2.69693e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+8.43176e+00 = +1.35410e+01 -5.62909e+00 +5.19897e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.73238e+02 = +1.55305e+02 +1.74287e+01 +5.03404e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.53684e+02 = +1.41847e+02 +1.07860e+01 +1.05115e+00</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1572</FGC>
+				<FGN>1572</FGN>
+				<MGN>62422</MGN>
+				<BGN>6490</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1571</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">3.59</t_total>
+				<t_wload unit="min">0.00 1.94 0.35 1.30</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>90</id>
+		<tag>30:edot_noh:h</tag>
+		<input>
+				30:edot_noh:MP_FILES/edot_noh_h.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:45:49</time>
+		<output>
+			<summary>
+				<type>neutral</type>
+				<xyz unit="nm">+0.1458571 +0.0414857 +0.3394143</xyz>
+				<total unit="eV">-670.6486644</total>
+				<estat unit="eV">-565.4627956</estat>
+				<eindu unit="eV">-105.1858688</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -6.34753e+00 -6.04866e+02</F-00-01-11>
+				<M-00-11--->+1.21824e+00 +9.32647e+01</M-00-11--->
+				<E-PP-PU-UU>-4.51462e+02 -7.52108e+01 -9.59124e-18</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.83618e+02 = -1.42645e+02 -3.82875e+01 -2.68567e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+8.20886e+00 = +1.28626e+01 -5.10951e+00 +4.55802e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.72784e+02 = +1.54999e+02 +1.72950e+01 +4.89797e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.51293e+02 = +1.39218e+02 +1.10951e+01 +9.80420e-01</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1572</FGC>
+				<FGN>1572</FGN>
+				<MGN>62422</MGN>
+				<BGN>6490</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1571</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">4.46</t_total>
+				<t_wload unit="min">0.00 2.76 0.35 1.36</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>91</id>
+		<tag>31:edot_noh:n</tag>
+		<input>
+				31:edot_noh:MP_FILES/edot_noh_n.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:45:15</time>
+		<output>
+			<summary>
+				<type>electron-like</type>
+				<xyz unit="nm">-0.0580000 +0.4668857 +0.3300929</xyz>
+				<total unit="eV">-670.5035926</total>
+				<estat unit="eV">-567.6032065</estat>
+				<eindu unit="eV">-102.9003861</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -5.35006e-01 -6.15815e+02</F-00-01-11>
+				<M-00-11--->+2.55234e-01 +9.47033e+01</M-00-11--->
+				<E-PP-PU-UU>-4.55818e+02 -7.54549e+01 -4.48086e-17</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.80218e+02 = -1.41183e+02 -3.66416e+01 -2.39300e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+8.12252e+00 = +1.23209e+01 -4.64639e+00 +4.48024e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.69284e+02 = +1.52480e+02 +1.63674e+01 +4.36352e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.46301e+02 = +1.35404e+02 +1.00550e+01 +8.42722e-01</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1584</FGC>
+				<FGN>1584</FGN>
+				<MGN>62242</MGN>
+				<BGN>6476</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1583</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">3.87</t_total>
+				<t_wload unit="min">0.00 2.07 0.35 1.45</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>92</id>
+		<tag>31:edot_noh:e</tag>
+		<input>
+				31:edot_noh:MP_FILES/edot_noh_e.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:45:15</time>
+		<output>
+			<summary>
+				<type>bipolaron-like</type>
+				<xyz unit="nm">-0.0580000 +0.4668857 +0.3300929</xyz>
+				<total unit="eV">-669.7202079</total>
+				<estat unit="eV">-564.5658927</estat>
+				<eindu unit="eV">-105.1543152</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -5.82086e-01 -6.16010e+02</F-00-01-11>
+				<M-00-11--->+8.47962e-01 +9.59897e+01</M-00-11--->
+				<E-PP-PU-UU>-4.52035e+02 -7.75883e+01 -7.74636e-17</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.80247e+02 = -1.41183e+02 -3.66625e+01 -2.40099e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+8.29270e+00 = +1.27207e+01 -4.90336e+00 +4.75316e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.69501e+02 = +1.52696e+02 +1.63673e+01 +4.37350e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.47513e+02 = +1.36765e+02 +9.88261e+00 +8.65668e-01</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1584</FGC>
+				<FGN>1584</FGN>
+				<MGN>62242</MGN>
+				<BGN>6476</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1583</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">3.83</t_total>
+				<t_wload unit="min">0.00 2.17 0.35 1.32</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>93</id>
+		<tag>31:edot_noh:h</tag>
+		<input>
+				31:edot_noh:MP_FILES/edot_noh_h.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:45:26</time>
+		<output>
+			<summary>
+				<type>neutral</type>
+				<xyz unit="nm">-0.0580000 +0.4668857 +0.3300929</xyz>
+				<total unit="eV">-673.6875905</total>
+				<estat unit="eV">-570.0863770</estat>
+				<eindu unit="eV">-103.6012135</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -5.88425e+00 -6.15367e+02</F-00-01-11>
+				<M-00-11--->+9.11182e-01 +9.49150e+01</M-00-11--->
+				<E-PP-PU-UU>-4.59048e+02 -7.62729e+01 -6.94267e-18</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.80185e+02 = -1.41183e+02 -3.66169e+01 -2.38474e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+7.94310e+00 = +1.19485e+01 -4.45524e+00 +4.49876e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.68901e+02 = +1.52241e+02 +1.62321e+01 +4.27363e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.44921e+02 = +1.34045e+02 +1.00362e+01 +8.40314e-01</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1584</FGC>
+				<FGN>1584</FGN>
+				<MGN>62242</MGN>
+				<BGN>6476</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1583</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">3.68</t_total>
+				<t_wload unit="min">0.00 1.97 0.35 1.36</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>94</id>
+		<tag>32:edoth:n</tag>
+		<input>
+				32:edoth:MP_FILES/edoth_n.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:45:39</time>
+		<output>
+			<summary>
+				<type>bipolaron-like</type>
+				<xyz unit="nm">+0.2635319 +0.8114043 +0.3633972</xyz>
+				<total unit="eV">-691.0994372</total>
+				<estat unit="eV">-585.0472369</estat>
+				<eindu unit="eV">-106.0522003</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -1.00062e+00 -6.42287e+02</F-00-01-11>
+				<M-00-11--->+1.81181e-01 +9.61936e+01</M-00-11--->
+				<E-PP-PU-UU>-4.80427e+02 -7.65980e+01 +2.11543e-17</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.86011e+02 = -1.44249e+02 -3.91615e+01 -2.60055e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+6.73113e+00 = +1.07089e+01 -4.43718e+00 +4.59401e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.58734e+02 = +1.42991e+02 +1.53234e+01 +4.20360e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.23641e+02 = +1.14070e+02 +8.74801e+00 +8.22487e-01</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1614</FGC>
+				<FGN>1614</FGN>
+				<MGN>62416</MGN>
+				<BGN>6447</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1613</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">3.68</t_total>
+				<t_wload unit="min">0.00 1.89 0.36 1.44</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>95</id>
+		<tag>32:edoth:e</tag>
+		<input>
+				32:edoth:MP_FILES/edoth_e.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:45:18</time>
+		<output>
+			<summary>
+				<type>bipolaron-like</type>
+				<xyz unit="nm">+0.2635319 +0.8114043 +0.3633972</xyz>
+				<total unit="eV">-690.2673150</total>
+				<estat unit="eV">-582.7500418</estat>
+				<eindu unit="eV">-107.5172732</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 +4.14001e-01 -6.42543e+02</F-00-01-11>
+				<M-00-11--->+5.20757e-01 +9.70682e+01</M-00-11--->
+				<E-PP-PU-UU>-4.76659e+02 -7.79795e+01 -4.05403e-17</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.86062e+02 = -1.44249e+02 -3.92061e+01 -2.60699e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+6.99763e+00 = +1.13101e+01 -4.82232e+00 +5.09828e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.59045e+02 = +1.43289e+02 +1.53332e+01 +4.22702e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.25707e+02 = +1.16441e+02 +8.39598e+00 +8.70347e-01</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1614</FGC>
+				<FGN>1614</FGN>
+				<MGN>62416</MGN>
+				<BGN>6447</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1613</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">3.27</t_total>
+				<t_wload unit="min">0.00 1.76 0.36 1.16</t_wload>
+			</timing>
+		</output>
+	</job>
+	<job>
+		<id>96</id>
+		<tag>32:edoth:h</tag>
+		<input>
+				32:edoth:MP_FILES/edoth_h.mps
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion2:16046</host>
+		<time>18:45:50</time>
+		<output>
+			<summary>
+				<type>electron-like</type>
+				<xyz unit="nm">+0.2635319 +0.8114043 +0.3633972</xyz>
+				<total unit="eV">-693.7234051</total>
+				<estat unit="eV">-587.2211544</estat>
+				<eindu unit="eV">-106.5022507</eindu>
+			</summary>
+			<terms_i>
+				<F-00-01-11>+0.00000e+00 -6.20644e+00 -6.41839e+02</F-00-01-11>
+				<M-00-11--->+5.89476e-01 +9.63819e+01</M-00-11--->
+				<E-PP-PU-UU>-4.84093e+02 -7.71199e+01 -1.53653e-17</E-PP-PU-UU>
+			</terms_i>
+			<terms_o>
+				<R-pp-pu-uu>-1.85959e+02 = -1.44249e+02 -3.91155e+01 -2.59381e+00</R-pp-pu-uu>
+				<K-pp-pu-uu>+6.46848e+00 = +1.01285e+01 -4.08732e+00 +4.27349e-01</K-pp-pu-uu>
+				<O-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</O-pp-pu-uu>
+				<J-pp-pu-uu>+1.58340e+02 = +1.42751e+02 +1.51797e+01 +4.09739e-01</J-pp-pu-uu>
+				<C-pp-pu-uu>+1.21500e+02 = +1.11758e+02 +8.95872e+00 +7.83215e-01</C-pp-pu-uu>
+				<Q-pp-pu-uu>+0.00000e+00 = +0.00000e+00 +0.00000e+00 +0.00000e+00</Q-pp-pu-uu>
+			</terms_o>
+			<terms_c>
+				<radial_corr>+0.0000000e+00</radial_corr>
+			</terms_c>
+			<shells>
+				<FGC>1614</FGC>
+				<FGN>1614</FGN>
+				<MGN>62416</MGN>
+				<BGN>6447</BGN>
+				<BGP>8060</BGP>
+				<QM0>1</QM0>
+				<MM1>1613</MM1>
+				<MM2>0</MM2>
+			</shells>
+			<timing>
+				<t_total unit="min">3.71</t_total>
+				<t_wload unit="min">0.00 1.93 0.36 1.41</t_wload>
+			</timing>
+		</output>
+	</job>
+</jobs>
