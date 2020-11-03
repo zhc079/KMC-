@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<options>
+  <sink help="numbering starts at 0!">16</sink>
+  <SEED help="SEED for random number generator">12345</SEED>
+  <simName help="prefix to output folder, can be used as identifier">sim</simName>
+  <maxTime>100000000000</maxTime>
+  <maxStep>100000000</maxStep>
+  <nrOfRunsPerProcess help="number of simulations to perform per thread">10</nrOfRunsPerProcess>
+  <nrOfProcesses help="nr of threads/processes to use, multithreading not supported for time of flight!">1</nrOfProcesses>
+  <Xmax>100000</Xmax>
+  <Ymax>100000</Ymax>
+  <Zmax>100000</Zmax>
+  <nrOfElectrons>0</nrOfElectrons>
+  <nrOfHoles>5</nrOfHoles>
+  <pathToSites help="path to file with sites and energies">../input/sites.txt</pathToSites>
+  <pathToNBList help="path to file with short range neighbours">../input/nbList.txt</pathToNBList>
+</options>
