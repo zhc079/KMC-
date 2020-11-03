@@ -1,0 +1,170 @@
+<jobs>
+	<job>
+		<id>0</id>
+		<tag></tag>
+		<input>
+			<segment id="0" type="ss">0</segment>
+			<segment id="1" type="ss">1</segment>
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion1:295438</host>
+		<time>11:53:26</time>
+		<output>
+			<dftcoupling homoA="47" homoB="47">
+				<hole>
+					<coupling j="1.071970e+00" levelA="47" levelB="47"/>
+				</hole>
+				<electron>
+					<coupling j="-1.239352e+00" levelA="48" levelB="48"/>
+				</electron>
+			</dftcoupling>
+		</output>
+	</job>
+	<job>
+		<id>50</id>
+		<tag></tag>
+		<input>
+			<segment id="1" type="ss">1</segment>
+			<segment id="2" type="ss">2</segment>
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion1:295438</host>
+		<time>11:54:19</time>
+		<output>
+			<dftcoupling homoA="47" homoB="47">
+				<hole>
+					<coupling j="-1.281410e+00" levelA="47" levelB="47"/>
+				</hole>
+				<electron>
+					<coupling j="-1.131467e+00" levelA="48" levelB="48"/>
+				</electron>
+			</dftcoupling>
+		</output>
+	</job>
+	<job>
+		<id>177</id>
+		<tag></tag>
+		<input>
+			<segment id="4" type="ss">4</segment>
+			<segment id="5" type="ss">5</segment>
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion1:295438</host>
+		<time>11:47:25</time>
+		<output>
+			<dftcoupling homoA="47" homoB="47">
+				<hole>
+					<coupling j="-8.367356e-01" levelA="47" levelB="47"/>
+				</hole>
+				<electron>
+					<coupling j="1.122502e+00" levelA="48" levelB="48"/>
+				</electron>
+			</dftcoupling>
+		</output>
+	</job>
+	<job>
+		<id>215</id>
+		<tag></tag>
+		<input>
+			<segment id="5" type="ss">5</segment>
+			<segment id="6" type="ss">6</segment>
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion1:295438</host>
+		<time>11:41:23</time>
+		<output>
+			<dftcoupling homoA="47" homoB="47">
+				<hole>
+					<coupling j="6.427241e-01" levelA="47" levelB="47"/>
+				</hole>
+				<electron>
+					<coupling j="-1.158395e+00" levelA="48" levelB="48"/>
+				</electron>
+			</dftcoupling>
+		</output>
+	</job>
+	<job>
+		<id>349</id>
+		<tag></tag>
+		<input>
+			<segment id="8" type="ss">8</segment>
+			<segment id="9" type="ss">9</segment>
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion1:295438</host>
+		<time>11:54:25</time>
+		<output>
+			<dftcoupling homoA="47" homoB="47">
+				<hole>
+					<coupling j="1.040738e+00" levelA="47" levelB="47"/>
+				</hole>
+				<electron>
+					<coupling j="1.346242e+00" levelA="48" levelB="48"/>
+				</electron>
+			</dftcoupling>
+		</output>
+	</job>
+	<job>
+		<id>399</id>
+		<tag></tag>
+		<input>
+			<segment id="9" type="ss">9</segment>
+			<segment id="10" type="ss">10</segment>
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion1:295438</host>
+		<time>11:54:23</time>
+		<output>
+			<dftcoupling homoA="47" homoB="47">
+				<hole>
+					<coupling j="1.067900e+00" levelA="47" levelB="47"/>
+				</hole>
+				<electron>
+					<coupling j="-1.347685e+00" levelA="48" levelB="48"/>
+				</electron>
+			</dftcoupling>
+		</output>
+	</job>
+	<job>
+		<id>526</id>
+		<tag></tag>
+		<input>
+			<segment id="12" type="ss">12</segment>
+			<segment id="13" type="ss">13</segment>
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion1:295438</host>
+		<time>11:54:00</time>
+		<output>
+			<dftcoupling homoA="47" homoB="47">
+				<hole>
+					<coupling j="-1.216999e+00" levelA="47" levelB="47"/>
+				</hole>
+				<electron>
+					<coupling j="1.230641e+00" levelA="48" levelB="48"/>
+				</electron>
+			</dftcoupling>
+		</output>
+	</job>
+	<job>
+		<id>564</id>
+		<tag></tag>
+		<input>
+			<segment id="13" type="ss">13</segment>
+			<segment id="14" type="ss">14</segment>
+		</input>
+		<status>COMPLETE</status>
+		<host>neurion1:295438</host>
+		<time>11:53:05</time>
+		<output>
+			<dftcoupling homoA="47" homoB="47">
+				<hole>
+					<coupling j="-1.028766e+00" levelA="47" levelB="47"/>
+				</hole>
+				<electron>
+					<coupling j="-9.851933e-01" levelA="48" levelB="48"/>
+				</electron>
+			</dftcoupling>
+		</output>
+	</job>
+</jobs>
